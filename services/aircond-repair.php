@@ -48,6 +48,7 @@ include __DIR__.'/../inc/header.php';
       </aside>
 
       <div class="svc-content reveal">
+
         <span class="eyebrow">What we do</span>
         <h2>Aircond repair services we provide in KL</h2>
         <p>Sham Aircond covers the full range of air conditioning repairs for residential and commercial properties. Our technicians restore cooling, fix leaks and bring dead units back to life across every common system type. We test each unit fully and confirm the price before any work begins.</p>
@@ -65,108 +66,87 @@ include __DIR__.'/../inc/header.php';
             <div class="svc-why-item"><span class="ic"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6L9 17l-5-5"/></svg></span><div><h4>Service guarantee</h4><p>Every repair and replaced part is backed by a guarantee we confirm before the job.</p></div></div>
           </div>
         </div>
+
+        <div class="in-sec">
+          <h2>Brands our technicians repair</h2>
+          <p>We repair Daikin, Panasonic, York, Acson, Midea, Samsung, LG and most other brands sold across Malaysia. Both single-split and multi-split systems are covered, so your setup is in safe hands.</p>
+          <div class="tag-chips">
+            <span class="chip"><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6L9 17l-5-5"/></svg> Daikin</span>
+            <span class="chip"><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6L9 17l-5-5"/></svg> Panasonic</span>
+            <span class="chip"><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6L9 17l-5-5"/></svg> York</span>
+            <span class="chip"><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6L9 17l-5-5"/></svg> Acson</span>
+            <span class="chip"><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6L9 17l-5-5"/></svg> Midea</span>
+            <span class="chip"><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6L9 17l-5-5"/></svg> Samsung</span>
+            <span class="chip"><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6L9 17l-5-5"/></svg> LG</span>
+            <span class="chip"><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6L9 17l-5-5"/></svg> &amp; most other brands</span>
+          </div>
+          <p class="areas-note">Our team also services commercial units in restaurants, salons, clinics and offices. When several units need attention, we schedule them together so your business loses less time.</p>
+        </div>
+
+        <div class="in-sec">
+          <h2>How our aircond repair process works</h2>
+          <p>Simple, transparent and on time. You always know the fault and the price before we touch anything.</p>
+          <div class="steps">
+            <div class="step"><div class="step-n"></div><h3>Call or message</h3><p>Tell us your problem and your location in Kuala Lumpur by call, WhatsApp or the form.</p></div>
+            <div class="step"><div class="step-n"></div><h3>Get a slot</h3><p>We give you a time slot, often the same day or the next, and arrive with tools and common parts ready.</p></div>
+            <div class="step"><div class="step-n"></div><h3>Inspect &amp; quote</h3><p>The technician inspects the unit, explains the fault in plain words and shows the price before starting.</p></div>
+            <div class="step"><div class="step-n"></div><h3>Repair &amp; test</h3><p>Once you approve, we complete the repair and run a full test so you feel the cooling before we leave.</p></div>
+          </div>
+        </div>
+
+        <div class="in-sec">
+          <h2>Servicing, maintenance &amp; honest advice</h2>
+          <div class="copy-grid">
+            <div class="copy-card">
+              <h3>Servicing &amp; maintenance in KL</h3>
+              <p>A unit cleaned twice a year breaks down far less often. Our routine servicing covers coil cleaning, filter washing, gas pressure checks and a full performance test, keeping your bill lower and your air cleaner.</p>
+              <p>For units carrying heavy dust or mould, we offer a deep chemical wash that restores cooling and clears any musty smell. Booking this before the hot season keeps your aircond ready for daily use.</p>
+            </div>
+            <div class="copy-card">
+              <h3>Honest advice you can trust</h3>
+              <p>Sometimes a repair costs more than the unit is worth. If an old model needs a major part, we tell you straight whether fixing or replacing is the smarter choice for your budget.</p>
+              <p>This straight talk is why so many KL customers call us back and pass our number to neighbours and family. We treat your home and your money the way we would treat our own.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="in-sec">
+          <h2>Aircond repair service areas in Kuala Lumpur</h2>
+          <p>We cover the whole of Kuala Lumpur and nearby Selangor areas. If you are unsure whether we serve your area, send us your address and we will confirm right away.</p>
+          <div class="tag-chips">
+            <span class="chip"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg> Cheras</span>
+            <span class="chip"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg> Wangsa Maju</span>
+            <span class="chip"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg> Setapak</span>
+            <span class="chip"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg> Kepong</span>
+            <span class="chip"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg> Bangsar</span>
+            <span class="chip"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg> Mont Kiara</span>
+            <span class="chip"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg> Bukit Bintang</span>
+            <span class="chip"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg> Sentul</span>
+            <span class="chip"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg> KL City Centre</span>
+            <span class="chip"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg> Ampang</span>
+            <span class="chip"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg> Petaling Jaya</span>
+          </div>
+        </div>
+
+        <div class="in-sec">
+          <div class="faq">
+            <h2>Frequently asked questions</h2>
+            <p class="faq-sub">Quick answers about aircond repair in Kuala Lumpur.</p>
+            <details class="faq-item"><summary>How fast can you repair my aircond in Kuala Lumpur?</summary><div class="faq-a"><p>In most cases we reach you the same day or the next, depending on your location and booking time.</p></div></details>
+            <details class="faq-item"><summary>Do you charge for the diagnosis?</summary><div class="faq-a"><p>We quote a clear inspection fee at booking and confirm the full repair price before starting any work.</p></div></details>
+            <details class="faq-item"><summary>My aircond is still under warranty. Should I call you?</summary><div class="faq-a"><p>If your unit is under the manufacturer warranty, contact your dealer first so you do not void it. We mainly help units that are out of warranty or need urgent attention.</p></div></details>
+            <details class="faq-item"><summary>How often should I service my aircond in KL?</summary><div class="faq-a"><p>For a home unit, twice a year is enough. Units in dusty areas or commercial spaces may need servicing every three to four months.</p></div></details>
+            <details class="faq-item"><summary>Can you repair aircond units in high-rise condos?</summary><div class="faq-a"><p>Yes, we handle condo and apartment units regularly. Just share the floor and access details when you book.</p></div></details>
+            <details class="faq-item"><summary>Do you provide a guarantee on repairs?</summary><div class="faq-a"><p>Yes, we back our repair work and replaced parts with a service guarantee. The period depends on the part, and we confirm it before the job.</p></div></details>
+          </div>
+        </div>
+
       </div>
     </div>
   </div>
 </section>
 
 <section style="background:var(--soft)">
-  <div class="wrap">
-    <div class="sec-head reveal" style="text-align:center">
-      <span class="eyebrow" style="justify-content:center">Every brand covered</span>
-      <h2>Brands our technicians repair</h2>
-      <p>We repair Daikin, Panasonic, York, Acson, Midea, Samsung, LG and most other brands sold across Malaysia. Both single-split and multi-split systems are covered, so your setup is in safe hands.</p>
-    </div>
-    <div class="tag-chips" style="justify-content:center">
-      <span class="chip"><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6L9 17l-5-5"/></svg> Daikin</span>
-      <span class="chip"><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6L9 17l-5-5"/></svg> Panasonic</span>
-      <span class="chip"><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6L9 17l-5-5"/></svg> York</span>
-      <span class="chip"><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6L9 17l-5-5"/></svg> Acson</span>
-      <span class="chip"><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6L9 17l-5-5"/></svg> Midea</span>
-      <span class="chip"><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6L9 17l-5-5"/></svg> Samsung</span>
-      <span class="chip"><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6L9 17l-5-5"/></svg> LG</span>
-      <span class="chip"><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6L9 17l-5-5"/></svg> &amp; most other brands</span>
-    </div>
-    <p class="areas-note" style="text-align:center;margin-left:auto;margin-right:auto">Our team also services commercial units in restaurants, salons, clinics and offices. When several units need attention, we schedule them together so your business loses less time.</p>
-  </div>
-</section>
-
-<section>
-  <div class="wrap">
-    <div class="sec-head reveal" style="text-align:center">
-      <span class="eyebrow" style="justify-content:center;color:var(--gold)">How it works</span>
-      <h2>How our aircond repair process works</h2>
-      <p>Simple, transparent and on time. You always know the fault and the price before we touch anything.</p>
-    </div>
-    <div class="steps">
-      <div class="step reveal"><div class="step-n"></div><h3>Call or message</h3><p>Tell us your problem and your location in Kuala Lumpur by call, WhatsApp or the form.</p></div>
-      <div class="step reveal"><div class="step-n"></div><h3>Get a slot</h3><p>We give you a time slot, often the same day or the next, and arrive with tools and common parts ready.</p></div>
-      <div class="step reveal"><div class="step-n"></div><h3>Inspect &amp; quote</h3><p>The technician inspects the unit, explains the fault in plain words and shows the price before starting.</p></div>
-      <div class="step reveal"><div class="step-n"></div><h3>Repair &amp; test</h3><p>Once you approve, we complete the repair and run a full test so you feel the cooling before we leave.</p></div>
-    </div>
-  </div>
-</section>
-
-<section style="background:var(--soft)">
-  <div class="wrap">
-    <div class="sec-head reveal" style="text-align:center">
-      <span class="eyebrow" style="justify-content:center">Beyond the repair</span>
-      <h2>Servicing, maintenance &amp; honest advice</h2>
-    </div>
-    <div class="copy-grid reveal">
-      <div class="copy-card">
-        <h3>Aircond servicing and maintenance in KL</h3>
-        <p>A unit cleaned twice a year breaks down far less often. Our routine servicing covers coil cleaning, filter washing, gas pressure checks and a full performance test, keeping your bill lower and your air cleaner.</p>
-        <p>For units carrying heavy dust or mould, we offer a deep chemical wash that restores cooling and clears any musty smell. Booking this before the hot season keeps your aircond ready for daily use.</p>
-      </div>
-      <div class="copy-card">
-        <h3>Honest advice you can trust</h3>
-        <p>Sometimes a repair costs more than the unit is worth. If an old model needs a major part, we tell you straight whether fixing or replacing is the smarter choice for your budget.</p>
-        <p>This straight talk is why so many KL customers call us back and pass our number to neighbours and family. We treat your home and your money the way we would treat our own.</p>
-      </div>
-    </div>
-  </div>
-</section>
-
-<section>
-  <div class="wrap">
-    <div class="sec-head reveal" style="text-align:center">
-      <span class="eyebrow" style="justify-content:center">Where we work</span>
-      <h2>Aircond repair service areas in Kuala Lumpur</h2>
-      <p>We cover the whole of Kuala Lumpur and nearby Selangor areas. If you are unsure whether we serve your area, send us your address and we will confirm right away.</p>
-    </div>
-    <div class="tag-chips" style="justify-content:center">
-      <span class="chip"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg> Cheras</span>
-      <span class="chip"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg> Wangsa Maju</span>
-      <span class="chip"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg> Setapak</span>
-      <span class="chip"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg> Kepong</span>
-      <span class="chip"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg> Bangsar</span>
-      <span class="chip"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg> Mont Kiara</span>
-      <span class="chip"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg> Bukit Bintang</span>
-      <span class="chip"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg> Sentul</span>
-      <span class="chip"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg> KL City Centre</span>
-      <span class="chip"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg> Ampang</span>
-      <span class="chip"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg> Petaling Jaya</span>
-    </div>
-  </div>
-</section>
-
-<section style="background:var(--soft)">
-  <div class="wrap">
-    <div class="faq reveal">
-      <div class="sec-head" style="text-align:center;margin-bottom:8px"><span class="eyebrow" style="justify-content:center">FAQ</span><h2>Frequently asked questions</h2></div>
-      <p class="faq-sub">Quick answers about aircond repair in Kuala Lumpur.</p>
-      <details class="faq-item"><summary>How fast can you repair my aircond in Kuala Lumpur?</summary><div class="faq-a"><p>In most cases we reach you the same day or the next, depending on your location and booking time.</p></div></details>
-      <details class="faq-item"><summary>Do you charge for the diagnosis?</summary><div class="faq-a"><p>We quote a clear inspection fee at booking and confirm the full repair price before starting any work.</p></div></details>
-      <details class="faq-item"><summary>My aircond is still under warranty. Should I call you?</summary><div class="faq-a"><p>If your unit is under the manufacturer warranty, contact your dealer first so you do not void it. We mainly help units that are out of warranty or need urgent attention.</p></div></details>
-      <details class="faq-item"><summary>How often should I service my aircond in KL?</summary><div class="faq-a"><p>For a home unit, twice a year is enough. Units in dusty areas or commercial spaces may need servicing every three to four months.</p></div></details>
-      <details class="faq-item"><summary>Can you repair aircond units in high-rise condos?</summary><div class="faq-a"><p>Yes, we handle condo and apartment units regularly. Just share the floor and access details when you book.</p></div></details>
-      <details class="faq-item"><summary>Do you provide a guarantee on repairs?</summary><div class="faq-a"><p>Yes, we back our repair work and replaced parts with a service guarantee. The period depends on the part, and we confirm it before the job.</p></div></details>
-    </div>
-  </div>
-</section>
-
-<section>
   <div class="wrap">
     <div class="sec-head reveal"><span class="eyebrow" style="justify-content:center">More services</span><h2>Other aircond services we offer</h2></div>
     <div class="other-grid">

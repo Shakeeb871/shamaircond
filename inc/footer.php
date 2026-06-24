@@ -9,18 +9,18 @@
         <p class="foot-about">Trusted aircond service and repair, installation and cleaning in Kuala Lumpur & Selangor. Fast response, honest pricing, guaranteed work.</p>
       </div>
       <div class="foot-col"><h4>Services</h4>
-        <a href="/services/aircond-repair">Aircond Repair</a>
-        <a href="/services/aircond-service">Aircond Service</a>
-        <a href="/services/aircond-installation">Aircond Installation</a>
-        <a href="/services/aircond-general-cleaning">General Cleaning</a>
-        <a href="/services/aircond-chemical-cleaning">Chemical Cleaning</a>
-        <a href="/services/aircond-gas-top-up">Gas Top Up</a>
+        <a href="/services/aircond-repair/">Aircond Repair</a>
+        <a href="/services/aircond-service/">Aircond Service</a>
+        <a href="/services/aircond-installation/">Aircond Installation</a>
+        <a href="/services/aircond-general-cleaning/">General Cleaning</a>
+        <a href="/services/aircond-chemical-cleaning/">Chemical Cleaning</a>
+        <a href="/services/aircond-gas-top-up/">Gas Top Up</a>
       </div>
       <div class="foot-col"><h4>Company</h4>
         <a href="/">Home</a>
-        <a href="/services">Our Services</a>
-        <a href="/about">About Us</a>
-        <a href="/contact">Contact Us</a>
+        <a href="/services/">Our Services</a>
+        <a href="/about/">About Us</a>
+        <a href="/contact/">Contact Us</a>
       </div>
       <div class="foot-col foot-contact"><h4>Get in touch</h4>
         <div><svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.9v3a2 2 0 01-2.2 2 19.8 19.8 0 01-8.6-3 19.5 19.5 0 01-6-6 19.8 19.8 0 01-3-8.7A2 2 0 014.1 2h3a2 2 0 012 1.7c.1 1 .4 2 .7 2.9a2 2 0 01-.5 2.1L8.1 9.9a16 16 0 006 6l1.2-1.2a2 2 0 012.1-.5c.9.3 1.9.6 2.9.7a2 2 0 011.7 2z"/></svg> <a href="tel:+601111642927">+60 11-1164 2927</a></div>

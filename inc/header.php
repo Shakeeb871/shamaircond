@@ -79,21 +79,21 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
       <nav class="nav-links" id="navlinks">
         <a href="/"<?= nav_active('home',$active) ?>>Home</a>
         <div class="nav-dd">
-          <a href="/services" class="nav-dd-top<?= $active==='services'?' active':'' ?>">Services <svg class="dd-caret" width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6"><path d="M6 9l6 6 6-6"/></svg></a>
+          <a href="/services/" class="nav-dd-top<?= $active==='services'?' active':'' ?>">Services <svg class="dd-caret" width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6"><path d="M6 9l6 6 6-6"/></svg></a>
           <div class="nav-dd-menu">
-            <a href="/services/aircond-repair">Aircond Repair</a>
-            <a href="/services/aircond-service">Aircond Service</a>
-            <a href="/services/aircond-installation">Aircond Installation</a>
-            <a href="/services/aircond-general-cleaning">General Cleaning</a>
-            <a href="/services/aircond-chemical-cleaning">Chemical Cleaning</a>
-            <a href="/services/aircond-gas-top-up">Gas Top Up</a>
+            <a href="/services/aircond-repair/">Aircond Repair</a>
+            <a href="/services/aircond-service/">Aircond Service</a>
+            <a href="/services/aircond-installation/">Aircond Installation</a>
+            <a href="/services/aircond-general-cleaning/">General Cleaning</a>
+            <a href="/services/aircond-chemical-cleaning/">Chemical Cleaning</a>
+            <a href="/services/aircond-gas-top-up/">Gas Top Up</a>
           </div>
         </div>
-        <a href="/about"<?= nav_active('about',$active) ?>>About</a>
-        <a href="/contact"<?= nav_active('contact',$active) ?>>Contact</a>
+        <a href="/about/"<?= nav_active('about',$active) ?>>About</a>
+        <a href="/contact/"<?= nav_active('contact',$active) ?>>Contact</a>
       </nav>
       <div class="nav-end">
-        <a href="/contact" class="btn btn-gold" style="padding:12px 24px">Schedule Now</a>
+        <a href="/contact/" class="btn btn-gold" style="padding:12px 24px">Schedule Now</a>
         <button class="menu-btn" id="menuBtn" aria-label="Open menu"><svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M3 6h18M3 12h18M3 18h18"/></svg></button>
       </div>
     </div>

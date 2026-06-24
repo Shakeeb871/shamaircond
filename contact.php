@@ -2,8 +2,8 @@
 $base=''; $active='contact';
 $title='Contact Us | Book Aircond Service &amp; Repair in Kuala Lumpur & Selangor';
 $desc='Contact Sham Aircond for fast aircond service and repair in Kuala Lumpur & Selangor. Call +60 11-1164 2927, WhatsApp us, or send a request and get a same-day slot.';
-$canonical='https://shamaircond.com/contact';
-$jsonld='<script type="application/ld+json">{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://shamaircond.com/"},{"@type":"ListItem","position":2,"name":"Contact Us","item":"https://shamaircond.com/contact"}]}</script>';
+$canonical='https://shamaircond.com/contact/';
+$jsonld='<script type="application/ld+json">{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://shamaircond.com/"},{"@type":"ListItem","position":2,"name":"Contact Us","item":"https://shamaircond.com/contact/"}]}</script>';
 include __DIR__.'/inc/header.php';
 ?>
 <section class="page-hero" style="background-image:linear-gradient(135deg,rgba(14,42,87,.88) 0%,rgba(18,58,122,.82) 100%),url('https://shamaircond.com/assets/img/aircond%20service.jpg')"><div class="wrap"><nav class="breadcrumb"><a href="/">Home</a> <span>/</span> <b>Contact Us</b></nav><span class="ph-eyebrow">Contact Us</span><h1>Book your aircond service and repair</h1><p>Call, WhatsApp or send the form below and we will confirm your slot fast. Same-day appointments are available across most of Kuala Lumpur & Selangor.</p></div></section>

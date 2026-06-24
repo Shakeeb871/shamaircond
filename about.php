@@ -2,8 +2,8 @@
 $base=''; $active='about';
 $title='About Us | Sham Aircond, Kuala Lumpur & Selangor Aircond Specialists';
 $desc='Meet Sham Aircond, a trusted local aircond service and repair team in Kuala Lumpur & Selangor. Certified technicians, honest pricing and guaranteed workmanship for homes and offices.';
-$canonical='https://shamaircond.com/about';
-$jsonld='<script type="application/ld+json">{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://shamaircond.com/"},{"@type":"ListItem","position":2,"name":"About Us","item":"https://shamaircond.com/about"}]}</script>';
+$canonical='https://shamaircond.com/about/';
+$jsonld='<script type="application/ld+json">{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://shamaircond.com/"},{"@type":"ListItem","position":2,"name":"About Us","item":"https://shamaircond.com/about/"}]}</script>';
 include __DIR__.'/inc/header.php';
 ?>
 <section class="page-hero" style="background-image:linear-gradient(135deg,rgba(14,42,87,.88) 0%,rgba(18,58,122,.82) 100%),url('https://shamaircond.com/assets/img/about-us.webp')"><div class="wrap"><nav class="breadcrumb"><a href="/">Home</a> <span>/</span> <b>About Us</b></nav><span class="ph-eyebrow">About Us</span><h1>Your local aircond service and repair team in Kuala Lumpur & Selangor</h1><p>Sham Aircond is a Kuala Lumpur & Selangor team built on honest work, fast response and cooling that lasts. Here is who we are and why homes and businesses across KL & Selangor trust us with their air conditioners.</p></div></section>
@@ -21,7 +21,7 @@ include __DIR__.'/inc/header.php';
         <h2>Aircond service and repair specialists in Kuala Lumpur & Selangor</h2>
         <p>Sham Aircond is a local aircond service and repair team for homes and offices across Kuala Lumpur & Selangor, keeping them cool, clean and comfortable. From a quick aircond repair to a full installation, every job gets the same care and attention to detail.</p>
         <p>Need an air conditioner repair near you in KL & Selangor? We show up on time, explain the problem in plain words, and quote an honest price before any work starts. No guesswork and no surprises, just dependable aircond work that lasts.</p>
-        <a href="/contact" class="btn btn-navy">Get a free quote</a>
+        <a href="/contact/" class="btn btn-navy">Get a free quote</a>
       </div>
     </div>
 

@@ -88,6 +88,40 @@
     }
   } catch (e) {}
 
+  /* ---- REVIEW SLIDERS (Google reviews, sidebar) ---- */
+  try {
+    var revSliders = [].slice.call(document.querySelectorAll('.rev-slider'));
+    revSliders.forEach(function (rs) {
+      var rSlides = [].slice.call(rs.querySelectorAll('.rev-slide'));
+      var dotsWrap = rs.querySelector('.rev-dots');
+      if (rSlides.length < 2) return;
+      var ri = 0, rTimer, rDelay = 4500, dots = [];
+      if (dotsWrap) {
+        rSlides.forEach(function (s, idx) {
+          var b = document.createElement('button');
+          b.type = 'button';
+          b.setAttribute('aria-label', 'Show review ' + (idx + 1));
+          b.addEventListener('click', function () { rgo(idx); });
+          dotsWrap.appendChild(b);
+          dots.push(b);
+        });
+      }
+      var rrestart = function () { clearInterval(rTimer); rTimer = setInterval(rnext, rDelay); };
+      var rgo = function (n) {
+        rSlides[ri].classList.remove('is-active');
+        if (dots[ri]) dots[ri].classList.remove('on');
+        ri = (n + rSlides.length) % rSlides.length;
+        rSlides[ri].classList.add('is-active');
+        if (dots[ri]) dots[ri].classList.add('on');
+        rrestart();
+      };
+      var rnext = function () { rgo(ri + 1); };
+      rSlides[0].classList.add('is-active');
+      if (dots[0]) dots[0].classList.add('on');
+      rrestart();
+    });
+  } catch (e) {}
+
   /* ---- animated counters ---- */
   try {
     var counters = document.querySelectorAll('[data-target]');

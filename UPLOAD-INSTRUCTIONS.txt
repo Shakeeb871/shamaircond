@@ -1,0 +1,22 @@
+SHAM AIRCOND - MULTI-PAGE WEBSITE (updated)
+===========================================
+Yeh zip public_html ke andar extract karein (cPanel File Manager > Upload >
+zip pe right-click > Extract). Sab files apni sahi jagah chali jayengi.
+
+Is update mein:
+ - Typography ab POPPINS (saari site)
+ - Home ke ilawa har page ke hero se Call/WhatsApp buttons hata diye
+ - Proper breadcrumbs har inner page pe + BreadcrumbList schema (SEO)
+ - Saari images aapki apni (hero slides ab client images, OG = og-image.jpg)
+
+Files (REPLACE existing + add new):
+ index.php, services.php, about.php, contact.php
+ services/ (6 pages)
+ inc/header.php, inc/footer.php
+ assets/css/style.css
+ .htaccess, robots.txt, sitemap.xml
+
+>>> ZAROORI: upload ke baad purana index.html DELETE karein <<<
+(Homepage ab index.php hai.)
+
+api/, admin/, assets/js, assets/img pehle se server pe hain - dobara nahi.

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url><loc>https://shamaircond.com/</loc><changefreq>monthly</changefreq><priority>1.0</priority></url>
+  <url><loc>https://shamaircond.com/services</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://shamaircond.com/about</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://shamaircond.com/contact</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://shamaircond.com/services/aircond-repair</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://shamaircond.com/services/aircond-service</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://shamaircond.com/services/aircond-installation</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://shamaircond.com/services/aircond-general-cleaning</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://shamaircond.com/services/aircond-chemical-cleaning</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://shamaircond.com/services/aircond-gas-top-up</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+</urlset>

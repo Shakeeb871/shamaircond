@@ -575,3 +575,14 @@ footer{background:#0B1F40;color:#9fb2d4;padding:66px 0 26px}
   .pc-name{font-size:13px}
   .pc-val{font-size:14px}
 }
+/* ===== Service page extras: tag chips + 2-col copy + areas ===== */
+.tag-chips{display:flex;flex-wrap:wrap;gap:10px;margin-top:22px}
+.tag-chips .chip{display:inline-flex;align-items:center;gap:8px;background:#fff;border:1px solid var(--line);color:var(--navy-ink);font-family:var(--display);font-weight:600;font-size:14px;padding:9px 16px;border-radius:999px}
+.tag-chips .chip svg{color:var(--gold);flex:0 0 auto}
+.copy-grid{display:grid;grid-template-columns:1fr 1fr;gap:26px}
+.copy-card{background:#fff;border:1px solid var(--line-soft);border-radius:var(--radius-lg);padding:30px 28px;box-shadow:0 6px 24px rgba(14,42,87,.05)}
+.copy-card h3{font-size:20px;text-transform:capitalize;color:var(--navy-ink);margin-bottom:12px}
+.copy-card p{font-size:15px;color:var(--muted);line-height:1.8;margin:0 0 12px}
+.copy-card p:last-child{margin-bottom:0}
+.areas-note{font-size:14.5px;color:var(--muted);margin-top:22px;line-height:1.75;max-width:70ch}
+@media(max-width:760px){.copy-grid{grid-template-columns:1fr}.copy-card{padding:26px 22px}}

@@ -1,18 +1,188 @@
 <?php
 $base='../'; $active='services';
-$title='Aircond Repair Kuala Lumpur & Selangor | Same-Day, All Brands | Sham Aircond';
-$desc='Fast aircond repair in Kuala Lumpur & Selangor for all brands. Not cooling, leaking, noisy or tripping? Same-day diagnosis and fixed pricing. Call +60 11-1164 2927.';
+$title='Aircond Repair Kuala Lumpur | All Brands, Same-Day Service | Sham Aircond';
+$desc='Trusted aircond repair in Kuala Lumpur. Skilled technicians, genuine parts, upfront pricing and a service guarantee. All brands, same-day where possible. Call +60 11-1164 2927.';
 $canonical='https://shamaircond.com/services/aircond-repair';
 $jsonld='<script type="application/ld+json">{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://shamaircond.com/"},{"@type":"ListItem","position":2,"name":"Services","item":"https://shamaircond.com/services"},{"@type":"ListItem","position":3,"name":"Aircond Repair","item":"https://shamaircond.com/services/aircond-repair"}]}</script>';
+$faqschema=<<<'HTML'
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"How fast can you repair my aircond in Kuala Lumpur?","acceptedAnswer":{"@type":"Answer","text":"In most cases we reach you the same day or the next, depending on your location and booking time."}},{"@type":"Question","name":"Do you charge for the diagnosis?","acceptedAnswer":{"@type":"Answer","text":"We quote a clear inspection fee at booking and confirm the full repair price before starting any work."}},{"@type":"Question","name":"My aircond is still under warranty. Should I call you?","acceptedAnswer":{"@type":"Answer","text":"If your unit is under the manufacturer warranty, contact your dealer first so you do not void it. We mainly help units that are out of warranty or need urgent attention."}},{"@type":"Question","name":"How often should I service my aircond in KL?","acceptedAnswer":{"@type":"Answer","text":"For a home unit, twice a year is enough. Units in dusty areas or commercial spaces may need servicing every three to four months."}},{"@type":"Question","name":"Can you repair aircond units in high-rise condos?","acceptedAnswer":{"@type":"Answer","text":"Yes, we handle condo and apartment units regularly. Just share the floor and access details when you book."}},{"@type":"Question","name":"Do you provide a guarantee on repairs?","acceptedAnswer":{"@type":"Answer","text":"Yes, we back our repair work and replaced parts with a service guarantee. The period depends on the part, and we confirm it before the job."}}]}</script>
+HTML;
 include __DIR__.'/../inc/header.php';
 ?>
-<section class="page-hero" style="background-image:linear-gradient(135deg,rgba(14,42,87,.88) 0%,rgba(18,58,122,.82) 100%),url('https://shamaircond.com/assets/img/aircond%20repair.jpg')"><div class="wrap"><nav class="breadcrumb"><a href="/">Home</a> <span>/</span> <a href="/services">Services</a> <span>/</span> <b>Aircond Repair</b></nav><span class="ph-eyebrow">Our Services</span><h1>Aircond Repair in Kuala Lumpur & Selangor</h1><p>Is your aircond not cooling, leaking water, making noise or tripping the breaker? Our technicians find the real fault, tell you the price first, and repair all aircond brands the same day across Kuala Lumpur & Selangor.</p></div></section>
-<section class="svc-layout-sec"><div class="wrap"><div class="svc-layout"><aside class="book-side"><div class="book-img"><img src="https://shamaircond.com/assets/img/aircond%20repair.jpg" alt="Aircond Repair in Kuala Lumpur & Selangor by Sham Aircond" loading="lazy" onerror="this.remove()"></div><div class="book-cta"><a href="tel:+601111642927" class="btn btn-gold"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.8 19.8 0 01-8.63-3.07 19.5 19.5 0 01-6-6 19.8 19.8 0 01-3.07-8.67A2 2 0 014.11 2h3a2 2 0 012 1.72c.13.96.36 1.9.7 2.81a2 2 0 01-.45 2.11L8.09 9.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45c.9.34 1.85.57 2.81.7A2 2 0 0122 16.92z"/></svg> Call Now</a><a href="https://wa.me/601111642927" class="btn btn-wa"><svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2a10 10 0 00-8.6 15l-1.3 4.7 4.8-1.3A10 10 0 1012 2zm5.3 14.1c-.2.6-1.3 1.2-1.8 1.2-.5.1-1 .1-1.7-.1-.4-.1-.9-.3-1.5-.6a8 8 0 01-3.7-3.3c-.3-.4-.7-1.1-.7-2 0-1 .5-1.4.7-1.6.2-.2.4-.2.6-.2h.4c.1 0 .3 0 .5.4l.6 1.5c0 .2 0 .3-.1.4l-.3.4c-.1.1-.3.3-.1.5.1.3.6 1 1.3 1.6.9.8 1.6 1 1.9 1.1.2.1.4.1.5-.1l.5-.6c.2-.2.3-.2.5-.1l1.5.7c.2.1.4.2.4.3.1.1.1.4 0 .6z"/></svg> WhatsApp</a></div><form class="cform book-form reveal" id="contactForm" data-endpoint="/api/contact.php" novalidate><h3>Book this service</h3><p class="fsub">Fill the form and we will confirm your slot fast.</p><div class="form-note-box" id="formNote"></div><div class="field"><label for="name">Full name</label><input type="text" id="name" name="name" placeholder="Your name"><span class="err-msg">Please enter your name.</span></div><div class="field"><label for="phone">Phone / WhatsApp</label><input type="tel" id="phone" name="phone" placeholder="01x-xxxx xxxx"><span class="err-msg">Please enter a valid phone number.</span></div><div class="field"><label for="email">Email</label><input type="email" id="email" name="email" placeholder="you@email.com"><span class="err-msg">Please enter a valid email address.</span></div><div class="field"><label for="location">Location / Area</label><input type="text" id="location" name="location" placeholder="Your area in KL & Selangor"><span class="err-msg">Please enter your location.</span></div><div class="field"><label for="service">Service needed</label><select id="service" name="service"><option value="">Select a service</option><option selected>Aircond Repair</option><option>Aircond Service</option><option>Aircond Installation</option><option>General Cleaning</option><option>Chemical Cleaning</option><option>Gas Top Up</option></select><span class="err-msg">Please choose a service.</span></div><div class="field"><label for="message">Message details</label><textarea id="message" name="message" placeholder="Tell us about your aircond"></textarea><span class="err-msg">Please add a few details.</span></div><div class="hp"><label for="company">Company</label><input type="text" id="company" name="company" tabindex="-1" autocomplete="off"></div><button type="submit" class="btn btn-gold" id="submitBtn" style="width:100%;justify-content:center">Send booking request</button><p class="form-note">We reply within the hour during working times.</p></form></aside><div class="svc-content reveal"><span class="eyebrow">What we do</span><h2>What our aircond repair covers</h2><p>A proper repair starts with a proper diagnosis. We test the unit, pinpoint the fault and fix the cause, not just the symptom, so the same problem does not come back next week.</p><ul class="tick-list"><li><strong>Not cooling or weak airflow</strong>We trace weak cooling to its source, from a dirty coil or faulty fan to low gas, and restore full, cold air.</li><li><strong>Water leaking indoors</strong>Blocked drainage and frozen coils are the usual cause. We clear the line, fix the cause and stop the dripping.</li><li><strong>Strange noise or vibration</strong>Rattles and buzzing usually mean a loose part or worn fan bearing. We find it and silence it.</li><li><strong>Tripping or not switching on</strong>Electrical faults, capacitor failure and PCB issues are diagnosed safely and repaired with quality parts.</li><li><strong>Bad smell from the unit</strong>A musty smell points to mould inside. We clean it out so the air is fresh again.</li></ul><div class="svc-why"><h3>Why book your aircond repair with Sham Aircond</h3><div class="svc-why-grid"><div class="svc-why-item"><span class="ic"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6L9 17l-5-5"/></svg></span><div><h4>Same-day response</h4><p>Tell us early and we aim for a same-day repair slot anywhere in KL & Selangor.</p></div></div><div class="svc-why-item"><span class="ic"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6L9 17l-5-5"/></svg></span><div><h4>All brands repaired</h4><p>Daikin, Panasonic, Mitsubishi, York, Acson, Midea and more, we fix them all.</p></div></div><div class="svc-why-item"><span class="ic"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6L9 17l-5-5"/></svg></span><div><h4>Fixed price first</h4><p>You approve a clear price before we start. No surprises on the final bill.</p></div></div></div></div></div></div></div></section>
-<section style="background:var(--soft)"><div class="wrap"><div class="sec-head reveal"><span class="eyebrow" style="justify-content:center">More services</span><h2>Other aircond services we offer</h2></div><div class="other-grid"><a class="other-card" href="/services/aircond-service">Aircond Service <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a><a class="other-card" href="/services/aircond-installation">Aircond Installation <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a><a class="other-card" href="/services/aircond-general-cleaning">General Cleaning <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a><a class="other-card" href="/services/aircond-chemical-cleaning">Chemical Cleaning <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a><a class="other-card" href="/services/aircond-gas-top-up">Gas Top Up <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a></div></div></section>
+<section class="page-hero" style="background-image:linear-gradient(135deg,rgba(14,42,87,.88) 0%,rgba(18,58,122,.82) 100%),url('https://shamaircond.com/assets/img/aircond%20repair.jpg')">
+  <div class="wrap">
+    <nav class="breadcrumb"><a href="/">Home</a> <span>/</span> <a href="/services">Services</a> <span>/</span> <b>Aircond Repair</b></nav>
+    <span class="ph-eyebrow">Our Services</span>
+    <h1>Aircond Repair in Kuala Lumpur</h1>
+    <p>Sham Aircond is a trusted name for aircond repair across Kuala Lumpur, serving homes, offices and shops with skilled technicians and genuine parts. We turn up on time, quote you upfront, and back every repair with a service guarantee. Thousands of KL customers rely on us to keep their air conditioners running through the hottest months.</p>
+    <div class="hero-actions">
+      <a href="tel:+601111642927" class="btn btn-gold"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.8 19.8 0 01-8.63-3.07 19.5 19.5 0 01-6-6 19.8 19.8 0 01-3.07-8.67A2 2 0 014.11 2h3a2 2 0 012 1.72c.13.96.36 1.9.7 2.81a2 2 0 01-.45 2.11L8.09 9.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45c.9.34 1.85.57 2.81.7A2 2 0 0122 16.92z"/></svg> Call Now</a>
+      <a href="https://wa.me/601111642927" class="btn btn-wa"><svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2a10 10 0 00-8.6 15l-1.3 4.7 4.8-1.3A10 10 0 1012 2zm5.3 14.1c-.2.6-1.3 1.2-1.8 1.2-.5.1-1 .1-1.7-.1-.4-.1-.9-.3-1.5-.6a8 8 0 01-3.7-3.3c-.3-.4-.7-1.1-.7-2 0-1 .5-1.4.7-1.6.2-.2.4-.2.6-.2h.4c.1 0 .3 0 .5.4l.6 1.5c0 .2 0 .3-.1.4l-.3.4c-.1.1-.3.3-.1.5.1.3.6 1 1.3 1.6.9.8 1.6 1 1.9 1.1.2.1.4.1.5-.1l.5-.6c.2-.2.3-.2.5-.1l1.5.7c.2.1.4.2.4.3.1.1.1.4 0 .6z"/></svg> WhatsApp</a>
+    </div>
+  </div>
+</section>
+
+<section class="svc-layout-sec">
+  <div class="wrap">
+    <div class="svc-layout">
+      <aside class="book-side">
+        <div class="book-img"><img src="https://shamaircond.com/assets/img/aircond%20repair.jpg" alt="Aircond repair in Kuala Lumpur by Sham Aircond" loading="lazy" onerror="this.remove()"></div>
+        <div class="book-cta">
+          <a href="tel:+601111642927" class="btn btn-gold"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.8 19.8 0 01-8.63-3.07 19.5 19.5 0 01-6-6 19.8 19.8 0 01-3.07-8.67A2 2 0 014.11 2h3a2 2 0 012 1.72c.13.96.36 1.9.7 2.81a2 2 0 01-.45 2.11L8.09 9.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45c.9.34 1.85.57 2.81.7A2 2 0 0122 16.92z"/></svg> Call Now</a>
+          <a href="https://wa.me/601111642927" class="btn btn-wa"><svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2a10 10 0 00-8.6 15l-1.3 4.7 4.8-1.3A10 10 0 1012 2zm5.3 14.1c-.2.6-1.3 1.2-1.8 1.2-.5.1-1 .1-1.7-.1-.4-.1-.9-.3-1.5-.6a8 8 0 01-3.7-3.3c-.3-.4-.7-1.1-.7-2 0-1 .5-1.4.7-1.6.2-.2.4-.2.6-.2h.4c.1 0 .3 0 .5.4l.6 1.5c0 .2 0 .3-.1.4l-.3.4c-.1.1-.3.3-.1.5.1.3.6 1 1.3 1.6.9.8 1.6 1 1.9 1.1.2.1.4.1.5-.1l.5-.6c.2-.2.3-.2.5-.1l1.5.7c.2.1.4.2.4.3.1.1.1.4 0 .6z"/></svg> WhatsApp</a>
+        </div>
+        <form class="cform book-form reveal" id="contactForm" data-endpoint="/api/contact.php" novalidate>
+          <h3>Book this service</h3>
+          <p class="fsub">Fill the form and we will confirm your slot fast.</p>
+          <div class="form-note-box" id="formNote"></div>
+          <div class="field"><label for="name">Full name</label><input type="text" id="name" name="name" placeholder="Your name"><span class="err-msg">Please enter your name.</span></div>
+          <div class="field"><label for="phone">Phone / WhatsApp</label><input type="tel" id="phone" name="phone" placeholder="01x-xxxx xxxx"><span class="err-msg">Please enter a valid phone number.</span></div>
+          <div class="field"><label for="email">Email</label><input type="email" id="email" name="email" placeholder="you@email.com"><span class="err-msg">Please enter a valid email address.</span></div>
+          <div class="field"><label for="location">Location / Area</label><input type="text" id="location" name="location" placeholder="Your area in Kuala Lumpur"><span class="err-msg">Please enter your location.</span></div>
+          <div class="field"><label for="service">Service needed</label><select id="service" name="service"><option value="">Select a service</option><option selected>Aircond Repair</option><option>Aircond Service</option><option>Aircond Installation</option><option>General Cleaning</option><option>Chemical Cleaning</option><option>Gas Top Up</option></select><span class="err-msg">Please choose a service.</span></div>
+          <div class="field"><label for="message">Message details</label><textarea id="message" name="message" placeholder="Tell us about your aircond"></textarea><span class="err-msg">Please add a few details.</span></div>
+          <div class="hp"><label for="company">Company</label><input type="text" id="company" name="company" tabindex="-1" autocomplete="off"></div>
+          <button type="submit" class="btn btn-gold" id="submitBtn" style="width:100%;justify-content:center">Send booking request</button>
+          <p class="form-note">We reply within the hour during working times.</p>
+        </form>
+      </aside>
+
+      <div class="svc-content reveal">
+        <span class="eyebrow">What we do</span>
+        <h2>Aircond repair services we provide in KL</h2>
+        <p>Sham Aircond covers the full range of air conditioning repairs for residential and commercial properties. Our technicians restore cooling, fix leaks and bring dead units back to life across every common system type. We test each unit fully and confirm the price before any work begins.</p>
+        <ul class="tick-list">
+          <li><strong>Split &amp; wall-mounted units</strong>The most common home setup. We restore weak cooling, stop leaks and fix electrical faults on every model.</li>
+          <li><strong>Cassette units</strong>Ceiling-mounted cassette systems found in offices and shops, repaired with the right tools and access.</li>
+          <li><strong>Ceiling-exposed units</strong>Exposed ceiling-type units serviced and repaired for homes and commercial spaces alike.</li>
+          <li><strong>Single &amp; multi-split systems</strong>Whether you have one unit at home or several across a business, we match the right fix to the right system.</li>
+        </ul>
+        <div class="svc-why">
+          <h3>Why book your aircond repair with Sham Aircond</h3>
+          <div class="svc-why-grid">
+            <div class="svc-why-item"><span class="ic"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6L9 17l-5-5"/></svg></span><div><h4>Skilled technicians</h4><p>Experienced hands and genuine parts, so the fault is solved properly the first time.</p></div></div>
+            <div class="svc-why-item"><span class="ic"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6L9 17l-5-5"/></svg></span><div><h4>Upfront pricing</h4><p>You see and approve a clear price before any work starts. No surprises on the bill.</p></div></div>
+            <div class="svc-why-item"><span class="ic"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6L9 17l-5-5"/></svg></span><div><h4>Service guarantee</h4><p>Every repair and replaced part is backed by a guarantee we confirm before the job.</p></div></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section style="background:var(--soft)">
+  <div class="wrap">
+    <div class="sec-head reveal" style="text-align:center">
+      <span class="eyebrow" style="justify-content:center">Every brand covered</span>
+      <h2>Brands our technicians repair</h2>
+      <p>We repair Daikin, Panasonic, York, Acson, Midea, Samsung, LG and most other brands sold across Malaysia. Both single-split and multi-split systems are covered, so your setup is in safe hands.</p>
+    </div>
+    <div class="tag-chips" style="justify-content:center">
+      <span class="chip"><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6L9 17l-5-5"/></svg> Daikin</span>
+      <span class="chip"><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6L9 17l-5-5"/></svg> Panasonic</span>
+      <span class="chip"><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6L9 17l-5-5"/></svg> York</span>
+      <span class="chip"><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6L9 17l-5-5"/></svg> Acson</span>
+      <span class="chip"><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6L9 17l-5-5"/></svg> Midea</span>
+      <span class="chip"><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6L9 17l-5-5"/></svg> Samsung</span>
+      <span class="chip"><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6L9 17l-5-5"/></svg> LG</span>
+      <span class="chip"><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6L9 17l-5-5"/></svg> &amp; most other brands</span>
+    </div>
+    <p class="areas-note" style="text-align:center;margin-left:auto;margin-right:auto">Our team also services commercial units in restaurants, salons, clinics and offices. When several units need attention, we schedule them together so your business loses less time.</p>
+  </div>
+</section>
+
+<section>
+  <div class="wrap">
+    <div class="sec-head reveal" style="text-align:center">
+      <span class="eyebrow" style="justify-content:center;color:var(--gold)">How it works</span>
+      <h2>How our aircond repair process works</h2>
+      <p>Simple, transparent and on time. You always know the fault and the price before we touch anything.</p>
+    </div>
+    <div class="steps">
+      <div class="step reveal"><div class="step-n"></div><h3>Call or message</h3><p>Tell us your problem and your location in Kuala Lumpur by call, WhatsApp or the form.</p></div>
+      <div class="step reveal"><div class="step-n"></div><h3>Get a slot</h3><p>We give you a time slot, often the same day or the next, and arrive with tools and common parts ready.</p></div>
+      <div class="step reveal"><div class="step-n"></div><h3>Inspect &amp; quote</h3><p>The technician inspects the unit, explains the fault in plain words and shows the price before starting.</p></div>
+      <div class="step reveal"><div class="step-n"></div><h3>Repair &amp; test</h3><p>Once you approve, we complete the repair and run a full test so you feel the cooling before we leave.</p></div>
+    </div>
+  </div>
+</section>
+
+<section style="background:var(--soft)">
+  <div class="wrap">
+    <div class="sec-head reveal" style="text-align:center">
+      <span class="eyebrow" style="justify-content:center">Beyond the repair</span>
+      <h2>Servicing, maintenance &amp; honest advice</h2>
+    </div>
+    <div class="copy-grid reveal">
+      <div class="copy-card">
+        <h3>Aircond servicing and maintenance in KL</h3>
+        <p>A unit cleaned twice a year breaks down far less often. Our routine servicing covers coil cleaning, filter washing, gas pressure checks and a full performance test, keeping your bill lower and your air cleaner.</p>
+        <p>For units carrying heavy dust or mould, we offer a deep chemical wash that restores cooling and clears any musty smell. Booking this before the hot season keeps your aircond ready for daily use.</p>
+      </div>
+      <div class="copy-card">
+        <h3>Honest advice you can trust</h3>
+        <p>Sometimes a repair costs more than the unit is worth. If an old model needs a major part, we tell you straight whether fixing or replacing is the smarter choice for your budget.</p>
+        <p>This straight talk is why so many KL customers call us back and pass our number to neighbours and family. We treat your home and your money the way we would treat our own.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section>
+  <div class="wrap">
+    <div class="sec-head reveal" style="text-align:center">
+      <span class="eyebrow" style="justify-content:center">Where we work</span>
+      <h2>Aircond repair service areas in Kuala Lumpur</h2>
+      <p>We cover the whole of Kuala Lumpur and nearby Selangor areas. If you are unsure whether we serve your area, send us your address and we will confirm right away.</p>
+    </div>
+    <div class="tag-chips" style="justify-content:center">
+      <span class="chip"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg> Cheras</span>
+      <span class="chip"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg> Wangsa Maju</span>
+      <span class="chip"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg> Setapak</span>
+      <span class="chip"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg> Kepong</span>
+      <span class="chip"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg> Bangsar</span>
+      <span class="chip"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg> Mont Kiara</span>
+      <span class="chip"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg> Bukit Bintang</span>
+      <span class="chip"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg> Sentul</span>
+      <span class="chip"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg> KL City Centre</span>
+      <span class="chip"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg> Ampang</span>
+      <span class="chip"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg> Petaling Jaya</span>
+    </div>
+  </div>
+</section>
+
+<section style="background:var(--soft)">
+  <div class="wrap">
+    <div class="faq reveal">
+      <div class="sec-head" style="text-align:center;margin-bottom:8px"><span class="eyebrow" style="justify-content:center">FAQ</span><h2>Frequently asked questions</h2></div>
+      <p class="faq-sub">Quick answers about aircond repair in Kuala Lumpur.</p>
+      <details class="faq-item"><summary>How fast can you repair my aircond in Kuala Lumpur?</summary><div class="faq-a"><p>In most cases we reach you the same day or the next, depending on your location and booking time.</p></div></details>
+      <details class="faq-item"><summary>Do you charge for the diagnosis?</summary><div class="faq-a"><p>We quote a clear inspection fee at booking and confirm the full repair price before starting any work.</p></div></details>
+      <details class="faq-item"><summary>My aircond is still under warranty. Should I call you?</summary><div class="faq-a"><p>If your unit is under the manufacturer warranty, contact your dealer first so you do not void it. We mainly help units that are out of warranty or need urgent attention.</p></div></details>
+      <details class="faq-item"><summary>How often should I service my aircond in KL?</summary><div class="faq-a"><p>For a home unit, twice a year is enough. Units in dusty areas or commercial spaces may need servicing every three to four months.</p></div></details>
+      <details class="faq-item"><summary>Can you repair aircond units in high-rise condos?</summary><div class="faq-a"><p>Yes, we handle condo and apartment units regularly. Just share the floor and access details when you book.</p></div></details>
+      <details class="faq-item"><summary>Do you provide a guarantee on repairs?</summary><div class="faq-a"><p>Yes, we back our repair work and replaced parts with a service guarantee. The period depends on the part, and we confirm it before the job.</p></div></details>
+    </div>
+  </div>
+</section>
+
+<section>
+  <div class="wrap">
+    <div class="sec-head reveal"><span class="eyebrow" style="justify-content:center">More services</span><h2>Other aircond services we offer</h2></div>
+    <div class="other-grid">
+      <a class="other-card" href="/services/aircond-service">Aircond Service <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
+      <a class="other-card" href="/services/aircond-installation">Aircond Installation <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
+      <a class="other-card" href="/services/aircond-general-cleaning">General Cleaning <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
+      <a class="other-card" href="/services/aircond-chemical-cleaning">Chemical Cleaning <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
+      <a class="other-card" href="/services/aircond-gas-top-up">Gas Top Up <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
+    </div>
+  </div>
+</section>
+
 <section style="padding-bottom:0">
   <div class="wrap">
     <div class="ctaband reveal">
-      <div><h2>Aircond not cooling? Get a same-day repair today.</h2><p>Book in under a minute. Most areas in KL & Selangor get a same-day slot.</p></div>
+      <div><h2>Aircond not cooling? Get a same-day repair today.</h2><p>Book in under a minute. Most areas in Kuala Lumpur get a same-day slot.</p></div>
       <div class="acts">
         <a href="tel:+601111642927" class="btn btn-navy"><svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.9v3a2 2 0 01-2.2 2 19.8 19.8 0 01-8.6-3 19.5 19.5 0 01-6-6 19.8 19.8 0 01-3-8.7A2 2 0 014.1 2h3a2 2 0 012 1.7c.1 1 .4 2 .7 2.9a2 2 0 01-.5 2.1L8.1 9.9a16 16 0 006 6l1.2-1.2a2 2 0 012.1-.5c.9.3 1.9.6 2.9.7a2 2 0 011.7 2z"/></svg> Call now</a>
         <a href="https://wa.me/601111642927" class="btn" style="background:#fff;color:var(--navy-ink)">WhatsApp us</a>

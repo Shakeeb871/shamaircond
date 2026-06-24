@@ -592,6 +592,9 @@ footer{background:#0B1F40;color:#9fb2d4;padding:66px 0 26px}
 .svc-content .in-sec h2{font-size:clamp(22px,2.4vw,30px);text-transform:capitalize;color:var(--navy-ink);margin-bottom:14px}
 .svc-content .in-sec>p{font-size:15.5px;color:var(--muted);line-height:1.8;margin:0}
 .svc-content .steps{grid-template-columns:1fr 1fr;gap:18px;margin-top:24px}
+.svc-content .step{background:var(--soft);border:1px solid var(--line-soft);padding:24px 22px}
+.svc-content .step h3{color:var(--navy-ink);font-size:17px}
+.svc-content .step p{color:var(--muted)}
 .svc-content .copy-grid{gap:18px;margin-top:24px}
 .svc-content .tag-chips{margin-top:18px}
 .svc-content .faq h2{margin-bottom:4px}

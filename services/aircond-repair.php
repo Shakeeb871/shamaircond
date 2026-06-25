@@ -12,7 +12,6 @@ include __DIR__.'/../inc/header.php';
 <section class="page-hero" style="background-image:linear-gradient(180deg,rgba(10,28,58,.58) 0%,rgba(10,28,58,.8) 100%),url('https://aircondprofessionals.com/wp-content/uploads/2023/04/Untitled-design-2023-04-14T025951.407.png')">
   <div class="wrap">
     <nav class="breadcrumb"><a href="/">Home</a> <span>/</span> <a href="/services/">Services</a> <span>/</span> <b>Aircond Repair</b></nav>
-    <span class="ph-eyebrow">Our Services</span>
     <h1>Certified Aircond Repair Specialist</h1>
     <p>Sham Aircond is a trusted name for aircond repair across Kuala Lumpur, serving homes, offices and shops with skilled technicians and genuine parts. We turn up on time, quote you upfront, and back every repair with a service guarantee. Thousands of KL customers rely on us to keep their air conditioners running through the hottest months.</p>
     <div class="hero-actions">

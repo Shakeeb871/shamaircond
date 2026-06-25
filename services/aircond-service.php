@@ -12,7 +12,6 @@ include __DIR__.'/../inc/header.php';
 <section class="page-hero" style="background-image:linear-gradient(180deg,rgba(10,28,58,.58) 0%,rgba(10,28,58,.8) 100%),url('https://aircondprofessionals.com/wp-content/uploads/2023/04/Untitled-design-2023-04-14T025951.407.png')">
   <div class="wrap">
     <nav class="breadcrumb"><a href="/">Home</a> <span>/</span> <a href="/services/">Services</a> <span>/</span> <b>Aircond Service</b></nav>
-    <span class="ph-eyebrow">Our Services</span>
     <h1>Certified Aircond Service Specialist</h1>
     <p>Sham Aircond is a trusted name for aircond service across Kuala Lumpur and the surrounding Klang Valley. Our skilled technicians arrive on time, use genuine parts and quote you upfront on every job. Homes, offices and shops across KL rely on us to keep their air conditioners running smoothly through the hottest months.</p>
     <div class="hero-actions">

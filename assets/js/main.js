@@ -143,16 +143,18 @@
     }
   } catch (e) {}
 
-  /* ---- contact form ---- */
+  /* ---- contact / booking forms (supports multiple forms per page) ---- */
   try {
-    var form = document.getElementById('contactForm');
-    if (form) {
-      var noteBox = document.getElementById('formNote');
-      var submitBtn = document.getElementById('submitBtn');
+    var bookingForms = document.querySelectorAll('form.cform');
+    bookingForms.forEach(function (form) {
+      var noteBox = form.querySelector('.form-note-box');
+      var submitBtn = form.querySelector('button[type="submit"]');
       var isEmail = function (v) { return /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(v); };
       var isPhone = function (v) { return v.replace(/\D/g, '').length >= 7; };
-      var fld = function (id) { return document.getElementById(id); };
+      var fld = function (n) { return form.querySelector('[name="' + n + '"]'); };
+      var val = function (n) { var el = fld(n); return el ? el.value.trim() : ''; };
       var showNote = function (type, msg) {
+        if (!noteBox) return;
         noteBox.className = 'form-note-box show ' + type;
         noteBox.textContent = msg;
         noteBox.scrollIntoView({ behavior: 'smooth', block: 'center' });
@@ -160,39 +162,39 @@
       /* business WhatsApp number (digits only, with country code) */
       var WA_NUMBER = '601111642927';
       var openWhatsApp = function () {
-        var v = function (id) { var el = fld(id); return el ? el.value.trim() : ''; };
         var lines = [
           'New aircond enquiry from website',
           '',
-          'Name: ' + v('name'),
-          'Phone: ' + v('phone'),
-          'Email: ' + v('email'),
-          'Location: ' + v('location'),
-          'Service: ' + v('service'),
-          'Message: ' + v('message')
+          'Name: ' + val('name'),
+          'Phone: ' + val('phone'),
+          'Email: ' + val('email'),
+          'Location: ' + val('location'),
+          'Service: ' + val('service'),
+          'Message: ' + val('message')
         ];
-        var url = 'https://wa.me/' + WA_NUMBER + '?text=' + encodeURIComponent(lines.join('\n'));
-        window.open(url, '_blank');
+        window.open('https://wa.me/' + WA_NUMBER + '?text=' + encodeURIComponent(lines.join('\n')), '_blank');
       };
       var validate = function () {
         var ok = true;
         [['name', function (v) { return v.length > 1; }], ['phone', isPhone], ['email', isEmail], ['location', function (v) { return v.length > 1; }],
          ['service', function (v) { return v.length > 0; }], ['message', function (v) { return v.length > 3; }]
         ].forEach(function (c) {
-          var el = fld(c[0]), wrap = el.closest('.field'), good = c[1](el.value.trim());
-          wrap.classList.toggle('err', !good); if (!good) ok = false;
+          var el = fld(c[0]); if (!el) return;
+          var wrap = el.closest('.field'), good = c[1](el.value.trim());
+          if (wrap) wrap.classList.toggle('err', !good);
+          if (!good) ok = false;
         });
         return ok;
       };
       form.addEventListener('submit', function (ev) {
         ev.preventDefault();
-        noteBox.className = 'form-note-box';
+        if (noteBox) noteBox.className = 'form-note-box';
         if (!validate()) return;
         var data = new FormData();
-        ['name', 'phone', 'email', 'location', 'service', 'message', 'company'].forEach(function (k) { data.append(k, fld(k).value); });
-        submitBtn.disabled = true;
-        var original = submitBtn.textContent;
-        submitBtn.textContent = 'Sending...';
+        ['name', 'phone', 'email', 'location', 'service', 'message', 'company'].forEach(function (k) { var el = fld(k); data.append(k, el ? el.value : ''); });
+        if (submitBtn) submitBtn.disabled = true;
+        var original = submitBtn ? submitBtn.textContent : '';
+        if (submitBtn) submitBtn.textContent = 'Sending...';
         fetch(form.getAttribute('data-endpoint') || '/api/contact.php', { method: 'POST', body: data })
           .then(function (r) { return r.json(); })
           .then(function (res) {
@@ -200,11 +202,11 @@
             else { showNote('bad', (res && res.message) || 'Something went wrong. Please call or WhatsApp us instead.'); }
           })
           .catch(function () { openWhatsApp(); showNote('ok', 'Thank you. We will confirm your slot shortly. Please tap Send in WhatsApp to confirm your booking.'); form.reset(); })
-          .finally(function () { submitBtn.disabled = false; submitBtn.textContent = original; });
+          .finally(function () { if (submitBtn) { submitBtn.disabled = false; submitBtn.textContent = original; } });
       });
       form.querySelectorAll('input,textarea,select').forEach(function (f) {
-        f.addEventListener('input', function () { f.closest('.field').classList.remove('err'); });
+        f.addEventListener('input', function () { var w = f.closest('.field'); if (w) w.classList.remove('err'); });
       });
-    }
+    });
   } catch (e) {}
 })();

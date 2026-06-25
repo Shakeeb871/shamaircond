@@ -646,16 +646,7 @@ footer{background:#0B1F40;color:#9fb2d4;padding:66px 0 26px}
 .hero-left .hero-badge,.hero-left h1,.hero-left .hero-sub,.hero-left .hero-actions,
 .price-card{opacity:1 !important;transform:none !important}
 
-/* ===== Site-wide quote CTA (footer include) — form on every page ===== */
-.quote-cta{background:linear-gradient(135deg,var(--navy-ink) 0%,var(--navy-deep) 100%);padding:72px 0}
-.quote-grid{display:grid;grid-template-columns:1fr 1fr;gap:48px;align-items:center}
-.quote-copy{color:#fff}
-.quote-copy h2{color:#fff;font-size:clamp(26px,3vw,38px);text-transform:capitalize;line-height:1.12;margin:14px 0}
-.quote-copy p{color:rgba(255,255,255,.8);font-size:16px;line-height:1.7;margin:0 0 22px;max-width:52ch}
-.quote-points{list-style:none;margin:0 0 26px;padding:0;display:grid;gap:12px}
-.quote-points li{display:flex;align-items:center;gap:11px;color:#fff;font-family:var(--display);font-weight:500;font-size:15px}
-.quote-points li svg{color:var(--gold);flex:0 0 auto}
-.quote-call{display:flex;flex-wrap:wrap;gap:12px}
-.quote-form .qf-row{display:grid;grid-template-columns:1fr 1fr;gap:14px}
-@media(max-width:980px){.quote-grid{grid-template-columns:1fr;gap:34px}}
-@media(max-width:520px){.quote-form .qf-row{grid-template-columns:1fr}}
+/* ===== Make the existing booking form prominent ===== */
+form.cform{border-top:5px solid var(--gold);box-shadow:0 26px 55px -24px rgba(18,58,122,.5)}
+.book-side .book-form{position:relative}
+.book-side .book-form::before{content:"Book now";position:absolute;top:-13px;left:50%;transform:translateX(-50%);background:var(--gold);color:var(--navy-ink);font-family:var(--display);font-weight:700;font-size:11px;letter-spacing:.12em;text-transform:uppercase;padding:5px 16px;border-radius:999px;white-space:nowrap;box-shadow:0 6px 16px rgba(246,167,0,.4)}

@@ -630,3 +630,18 @@ footer{background:#0B1F40;color:#9fb2d4;padding:66px 0 26px}
 .page-hero .hero-areas .ha-list{display:flex;flex-wrap:wrap;gap:8px;justify-content:center;max-width:820px;margin:0 auto}
 .page-hero .hero-areas .ha{display:inline-flex;align-items:center;gap:6px;background:rgba(255,255,255,.08);border:1px solid rgba(255,255,255,.18);color:#fff;font-size:12.5px;font-weight:500;padding:6px 13px;border-radius:999px}
 .page-hero .hero-areas .ha svg{color:var(--gold);flex:0 0 auto}
+
+/* ============================================================
+   ANIMATIONS DISABLED — content appears instantly on every page
+   (entrance/scroll/keyframe animations + transitions removed)
+   ============================================================ */
+*,*::before,*::after{animation:none !important;transition:none !important}
+
+/* Force-visible every element that starts hidden for an entrance animation
+   (reveal + hero text/cards). Slider .slide/.rev-slide and hover dropdowns
+   are intentionally left alone so they keep working.) */
+.reveal,
+.hero-pill,
+.slide-content h1,.slide-content .subline,.slide-content .hero-actions,
+.hero-left .hero-badge,.hero-left h1,.hero-left .hero-sub,.hero-left .hero-actions,
+.price-card{opacity:1 !important;transform:none !important}

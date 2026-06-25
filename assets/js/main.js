@@ -126,12 +126,9 @@
   try {
     var counters = document.querySelectorAll('[data-target]');
     var animate = function (el) {
-      var target = parseFloat(el.dataset.target), dec = target % 1 !== 0, cur = 0, step = target / 60;
-      (function tick() {
-        cur += step;
-        if (cur >= target) { el.textContent = dec ? target.toFixed(1) : Math.round(target).toLocaleString(); }
-        else { el.textContent = dec ? cur.toFixed(1) : Math.round(cur).toLocaleString(); requestAnimationFrame(tick); }
-      })();
+      /* animations disabled — show the final value immediately, no count-up */
+      var target = parseFloat(el.dataset.target);
+      el.textContent = target % 1 !== 0 ? target.toFixed(1) : Math.round(target).toLocaleString();
     };
     if (hasIO) {
       var cio = new IntersectionObserver(function (entries) {

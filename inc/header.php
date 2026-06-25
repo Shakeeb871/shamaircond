@@ -37,11 +37,13 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 <meta property="og:url" content="<?= htmlspecialchars($canonical) ?>">
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:image" content="<?= htmlspecialchars($ogimg) ?>">
-<link rel="icon" type="image/jpeg" href="https://shamaircond.com/assets/img/aircond-service.jpeg">
-<link rel="apple-touch-icon" href="https://shamaircond.com/assets/img/aircond-service.jpeg">
+<link rel="icon" type="image/png" sizes="64x64" href="https://shamaircond.com/assets/img/favicon.png">
+<link rel="apple-touch-icon" href="https://shamaircond.com/assets/img/apple-touch-icon.png">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=optional">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=optional" media="print" onload="this.media='all'">
+<noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=optional"></noscript>
 <link rel="stylesheet" href="/assets/css/style.css?v=<?= @filemtime(__DIR__.'/../assets/css/style.css') ?>">
 <script type="application/ld+json">
 {"@context":"https://schema.org","@type":"HVACBusiness","name":"Sham Aircond","image":"https://shamaircond.com/assets/img/og-image.jpg","@id":"https://shamaircond.com/","url":"https://shamaircond.com/","telephone":"+601111642927","email":"info@shamaircond.com","priceRange":"$$","address":{"@type":"PostalAddress","addressLocality":"Kuala Lumpur","addressRegion":"Selangor","addressCountry":"MY"},"areaServed":"Kuala Lumpur & Selangor","openingHoursSpecification":{"@type":"OpeningHoursSpecification","dayOfWeek":["Monday","Tuesday","Wednesday","Thursday","Friday","Saturday","Sunday"],"opens":"09:00","closes":"21:00"},"makesOffer":[{"@type":"Offer","itemOffered":{"@type":"Service","name":"Aircond Repair"}},{"@type":"Offer","itemOffered":{"@type":"Service","name":"Aircond Service"}},{"@type":"Offer","itemOffered":{"@type":"Service","name":"Aircond Installation"}},{"@type":"Offer","itemOffered":{"@type":"Service","name":"Aircond General Cleaning"}},{"@type":"Offer","itemOffered":{"@type":"Service","name":"Aircond Chemical Cleaning"}},{"@type":"Offer","itemOffered":{"@type":"Service","name":"Aircond Gas Top Up"}}]}
@@ -73,7 +75,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
   <div class="mainnav">
     <div class="wrap nav">
       <a href="/" class="brand">
-        <img src="https://shamaircond.com/assets/img/aircond-service.jpeg" alt="Sham Aircond air conditioning services in Kuala Lumpur & Selangor" onerror="this.style.display='none';this.nextElementSibling.style.display='flex'">
+        <img src="https://shamaircond.com/assets/img/logo.webp" width="244" height="96" alt="Sham Aircond air conditioning services in Kuala Lumpur & Selangor" fetchpriority="high" onerror="this.style.display='none';this.nextElementSibling.style.display='flex'">
         <span class="brand-fallback" style="display:none"><span class="txt"><span class="b1">SHAM</span><span class="b2">AIRCOND</span></span></span>
       </a>
       <nav class="nav-links" id="navlinks">

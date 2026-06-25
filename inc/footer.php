@@ -3,7 +3,7 @@
     <div class="foot-grid">
       <div class="foot-brand">
         <a href="/" class="brand foot-logo">
-          <img src="https://shamaircond.com/assets/img/aircond-service.jpeg" alt="Sham Aircond" onerror="this.style.display='none';this.nextElementSibling.style.display='flex'">
+          <img src="https://shamaircond.com/assets/img/logo.webp" width="244" height="96" alt="Sham Aircond" loading="lazy" onerror="this.style.display='none';this.nextElementSibling.style.display='flex'">
           <span class="brand-fallback" style="display:none"><span class="txt"><span class="b1">SHAM</span><span class="b2">AIRCOND</span></span></span>
         </a>
         <p class="foot-about">Trusted aircond service and repair, installation and cleaning in Kuala Lumpur & Selangor. Fast response, honest pricing, guaranteed work.</p>

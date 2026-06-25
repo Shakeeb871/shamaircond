@@ -13,14 +13,14 @@ include __DIR__.'/../inc/header.php';
   <div class="wrap">
     <nav class="breadcrumb"><a href="/">Home</a> <span>/</span> <a href="/services/">Services</a> <span>/</span> <b>Aircond Repair</b></nav>
     <span class="ph-eyebrow">Our Services</span>
-    <h1>Certified Aircond Repair in Kuala Lumpur</h1>
+    <h1>Certified Aircond Repair</h1>
     <p>Sham Aircond is a trusted name for aircond repair across Kuala Lumpur, serving homes, offices and shops with skilled technicians and genuine parts. We turn up on time, quote you upfront, and back every repair with a service guarantee. Thousands of KL customers rely on us to keep their air conditioners running through the hottest months.</p>
     <div class="hero-actions">
       <a href="tel:+601111642927" class="btn btn-gold"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.8 19.8 0 01-8.63-3.07 19.5 19.5 0 01-6-6 19.8 19.8 0 01-3.07-8.67A2 2 0 014.11 2h3a2 2 0 012 1.72c.13.96.36 1.9.7 2.81a2 2 0 01-.45 2.11L8.09 9.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45c.9.34 1.85.57 2.81.7A2 2 0 0122 16.92z"/></svg> Call Now</a>
       <a href="https://wa.me/601111642927" class="btn btn-wa"><svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2a10 10 0 00-8.6 15l-1.3 4.7 4.8-1.3A10 10 0 1012 2zm5.3 14.1c-.2.6-1.3 1.2-1.8 1.2-.5.1-1 .1-1.7-.1-.4-.1-.9-.3-1.5-.6a8 8 0 01-3.7-3.3c-.3-.4-.7-1.1-.7-2 0-1 .5-1.4.7-1.6.2-.2.4-.2.6-.2h.4c.1 0 .3 0 .5.4l.6 1.5c0 .2 0 .3-.1.4l-.3.4c-.1.1-.3.3-.1.5.1.3.6 1 1.3 1.6.9.8 1.6 1 1.9 1.1.2.1.4.1.5-.1l.5-.6c.2-.2.3-.2.5-.1l1.5.7c.2.1.4.2.4.3.1.1.1.4 0 .6z"/></svg> WhatsApp</a>
     </div>
     <div class="hero-areas">
-      <span class="ha-label">Aircond repair areas we cover in Kuala Lumpur</span>
+      <span class="ha-label">Areas we cover</span>
       <div class="ha-list">
         <span class="ha"><svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg> Cheras</span>
         <span class="ha"><svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg> Wangsa Maju</span>
@@ -124,7 +124,7 @@ include __DIR__.'/../inc/header.php';
       <div class="svc-content reveal">
 
         <span class="eyebrow">What we do</span>
-        <h2>Aircond repair services we provide in KL</h2>
+        <h2>Aircond repair services we provide</h2>
         <p>Sham Aircond covers the full range of air conditioning repairs for residential and commercial properties. Our technicians restore cooling, fix leaks and bring dead units back to life across every common system type. We test each unit fully and confirm the price before any work begins.</p>
         <ul class="tick-list">
           <li><strong>Split &amp; wall-mounted units</strong>The most common home setup. We restore weak cooling, stop leaks and fix electrical faults on every model.</li>
@@ -172,7 +172,7 @@ include __DIR__.'/../inc/header.php';
           <h2>Servicing, maintenance &amp; honest advice</h2>
           <div class="copy-grid">
             <div class="copy-card">
-              <h3>Servicing &amp; maintenance in KL</h3>
+              <h3>Servicing &amp; maintenance</h3>
               <p>A unit cleaned twice a year breaks down far less often. Our routine servicing covers coil cleaning, filter washing, gas pressure checks and a full performance test, keeping your bill lower and your air cleaner.</p>
               <p>For units carrying heavy dust or mould, we offer a deep chemical wash that restores cooling and clears any musty smell. Booking this before the hot season keeps your aircond ready for daily use.</p>
             </div>
@@ -185,7 +185,7 @@ include __DIR__.'/../inc/header.php';
         </div>
 
         <div class="in-sec">
-          <h2>Aircond repair service areas in Kuala Lumpur</h2>
+          <h2>Aircond repair service areas</h2>
           <p>We cover the whole of Kuala Lumpur and nearby Selangor areas. If you are unsure whether we serve your area, send us your address and we will confirm right away.</p>
           <div class="tag-chips">
             <span class="chip"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg> Cheras</span>

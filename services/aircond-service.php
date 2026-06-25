@@ -13,14 +13,14 @@ include __DIR__.'/../inc/header.php';
   <div class="wrap">
     <nav class="breadcrumb"><a href="/">Home</a> <span>/</span> <a href="/services/">Services</a> <span>/</span> <b>Aircond Service</b></nav>
     <span class="ph-eyebrow">Our Services</span>
-    <h1>Certified Aircond Service in Kuala Lumpur</h1>
+    <h1>Certified Aircond Service</h1>
     <p>Sham Aircond is a trusted name for aircond service across Kuala Lumpur and the surrounding Klang Valley. Our skilled technicians arrive on time, use genuine parts and quote you upfront on every job. Homes, offices and shops across KL rely on us to keep their air conditioners running smoothly through the hottest months.</p>
     <div class="hero-actions">
       <a href="tel:+601111642927" class="btn btn-gold"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.8 19.8 0 01-8.63-3.07 19.5 19.5 0 01-6-6 19.8 19.8 0 01-3.07-8.67A2 2 0 014.11 2h3a2 2 0 012 1.72c.13.96.36 1.9.7 2.81a2 2 0 01-.45 2.11L8.09 9.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45c.9.34 1.85.57 2.81.7A2 2 0 0122 16.92z"/></svg> Call Now</a>
       <a href="https://wa.me/601111642927" class="btn btn-wa"><svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2a10 10 0 00-8.6 15l-1.3 4.7 4.8-1.3A10 10 0 1012 2zm5.3 14.1c-.2.6-1.3 1.2-1.8 1.2-.5.1-1 .1-1.7-.1-.4-.1-.9-.3-1.5-.6a8 8 0 01-3.7-3.3c-.3-.4-.7-1.1-.7-2 0-1 .5-1.4.7-1.6.2-.2.4-.2.6-.2h.4c.1 0 .3 0 .5.4l.6 1.5c0 .2 0 .3-.1.4l-.3.4c-.1.1-.3.3-.1.5.1.3.6 1 1.3 1.6.9.8 1.6 1 1.9 1.1.2.1.4.1.5-.1l.5-.6c.2-.2.3-.2.5-.1l1.5.7c.2.1.4.2.4.3.1.1.1.4 0 .6z"/></svg> WhatsApp</a>
     </div>
     <div class="hero-areas">
-      <span class="ha-label">Aircond service areas across KL &amp; Selangor</span>
+      <span class="ha-label">Areas we cover</span>
       <div class="ha-list">
         <span class="ha"><svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg> Cheras</span>
         <span class="ha"><svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg> Wangsa Maju</span>
@@ -128,7 +128,7 @@ include __DIR__.'/../inc/header.php';
       <div class="svc-content reveal">
 
         <span class="eyebrow">What we do</span>
-        <h2>Aircond services we provide in Kuala Lumpur</h2>
+        <h2>Aircond services we provide</h2>
         <p>Sham Aircond covers routine servicing, cleaning and full maintenance for residential and commercial properties. Our technicians service every common system type and run a full performance test before leaving, so your unit cools the way it should.</p>
         <ul class="tick-list">
           <li><strong>Split &amp; wall-mounted units</strong>The most common home setup. Cleaned, checked and tested so airflow and cooling come back to full strength.</li>
@@ -192,7 +192,7 @@ include __DIR__.'/../inc/header.php';
         </div>
 
         <div class="in-sec">
-          <h2>Aircond service areas across KL and Selangor</h2>
+          <h2>Aircond service areas</h2>
           <p>We cover the whole of Kuala Lumpur and key areas across Selangor and Putrajaya. If you are unsure whether we cover your area, send us your address and we will confirm right away.</p>
           <div class="tag-chips">
             <span class="chip"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg> Cheras</span>

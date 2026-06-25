@@ -13,7 +13,7 @@ include __DIR__.'/../inc/header.php';
   <div class="wrap">
     <nav class="breadcrumb"><a href="/">Home</a> <span>/</span> <a href="/services/">Services</a> <span>/</span> <b>Aircond Repair</b></nav>
     <span class="ph-eyebrow">Our Services</span>
-    <h1>Aircond Repair in Kuala Lumpur</h1>
+    <h1>Certified Aircond Repair in Kuala Lumpur</h1>
     <p>Sham Aircond is a trusted name for aircond repair across Kuala Lumpur, serving homes, offices and shops with skilled technicians and genuine parts. We turn up on time, quote you upfront, and back every repair with a service guarantee. Thousands of KL customers rely on us to keep their air conditioners running through the hottest months.</p>
     <div class="hero-actions">
       <a href="tel:+601111642927" class="btn btn-gold"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.8 19.8 0 01-8.63-3.07 19.5 19.5 0 01-6-6 19.8 19.8 0 01-3.07-8.67A2 2 0 014.11 2h3a2 2 0 012 1.72c.13.96.36 1.9.7 2.81a2 2 0 01-.45 2.11L8.09 9.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45c.9.34 1.85.57 2.81.7A2 2 0 0122 16.92z"/></svg> Call Now</a>
@@ -30,6 +30,7 @@ include __DIR__.'/../inc/header.php';
         <span class="ha"><svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg> Mont Kiara</span>
         <span class="ha"><svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg> Bukit Bintang</span>
         <span class="ha"><svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg> Sentul</span>
+        <span class="ha"><svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg> KL City Centre</span>
         <span class="ha"><svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg> Ampang</span>
         <span class="ha"><svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg> Petaling Jaya</span>
       </div>

@@ -1,0 +1,73 @@
+{% extends "base.html" %}
+{% block title %}Contact Us | {{ biz.name }}{% endblock %}
+
+{% block content %}
+<section class="page-hero">
+  <div class="wrap">
+    <nav class="breadcrumb"><a href="{{ url_for('home') }}">Home</a> <span>/</span> <b>Contact</b></nav>
+    <span class="ph-eyebrow">Contact us</span>
+    <h1>Book your appliance repair</h1>
+    <p>Call, WhatsApp or send the form below and we'll confirm your slot fast. Same-day appointments available across most of {{ biz.areas }}.</p>
+  </div>
+</section>
+
+<section class="contact-sec">
+  <div class="wrap contact-grid">
+    <div class="contact-info">
+      <h3>Get in touch</h3>
+      <ul class="contact-list">
+        <li><span class="ci-label">Call / WhatsApp</span><a href="tel:+{{ biz.phone_raw }}">{{ biz.phone_display }}</a></li>
+        <li><span class="ci-label">Email</span><a href="mailto:{{ biz.email }}">{{ biz.email }}</a></li>
+        <li><span class="ci-label">Service area</span>{{ biz.address }}</li>
+        <li><span class="ci-label">Hours</span>{{ biz.hours }}</li>
+      </ul>
+      <div class="map">
+        <iframe title="Service area" loading="lazy" src="https://maps.google.com/maps?q={{ biz.map_query | urlencode }}&t=&z=11&ie=UTF8&iwloc=&output=embed"></iframe>
+      </div>
+    </div>
+
+    <form class="cform" method="post" action="{{ url_for('contact') }}" novalidate>
+      <h3>Send a request</h3>
+      <p class="muted">Tell us what's wrong and we'll get right back to you.</p>
+
+      {% with messages = get_flashed_messages(with_categories=true) %}
+        {% if messages %}
+          {% for category, msg in messages %}
+          <div class="note {{ category }}">{{ msg }}</div>
+          {% endfor %}
+        {% endif %}
+      {% endwith %}
+
+      <div class="row2">
+        <div class="field"><label for="name">Full name</label>
+          <input type="text" id="name" name="name" value="{{ form.name or '' }}" placeholder="Your name" required></div>
+        <div class="field"><label for="phone">Phone / WhatsApp</label>
+          <input type="tel" id="phone" name="phone" value="{{ form.phone or '' }}" placeholder="01x-xxxx xxxx" required></div>
+      </div>
+      <div class="row2">
+        <div class="field"><label for="email">Email <small>(optional)</small></label>
+          <input type="email" id="email" name="email" value="{{ form.email or '' }}" placeholder="you@email.com"></div>
+        <div class="field"><label for="location">Location / Area</label>
+          <input type="text" id="location" name="location" value="{{ form.location or '' }}" placeholder="e.g. Petaling Jaya"></div>
+      </div>
+      <div class="field"><label for="service">Service needed</label>
+        <select id="service" name="service">
+          <option value="">Select a service</option>
+          {% for name in service_names %}
+          <option {{ 'selected' if form.service == name }}>{{ name }}</option>
+          {% endfor %}
+          <option {{ 'selected' if form.service == 'Other' }}>Other</option>
+        </select>
+      </div>
+      <div class="field"><label for="message">Message details</label>
+        <textarea id="message" name="message" placeholder="Tell us about the problem with your appliance" required>{{ form.message or '' }}</textarea></div>
+
+      <!-- Honeypot: hidden from users, traps bots -->
+      <div class="hp"><label>Company<input type="text" name="company" tabindex="-1" autocomplete="off"></label></div>
+
+      <button type="submit" class="btn btn-gold btn-block">Send request</button>
+      <p class="form-note">We reply within the hour during working times. No spam, ever.</p>
+    </form>
+  </div>
+</section>
+{% endblock %}

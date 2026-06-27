@@ -1,0 +1,48 @@
+{% extends "base.html" %}
+{% from "_icons.html" import icon, check %}
+{% block title %}Our Services | {{ biz.name }}{% endblock %}
+
+{% block content %}
+<section class="page-hero">
+  <div class="wrap">
+    <nav class="breadcrumb"><a href="{{ url_for('home') }}">Home</a> <span>/</span> <b>Services</b></nav>
+    <span class="ph-eyebrow">What we fix</span>
+    <h1>Appliance repair services</h1>
+    <p>From a fridge that won't cool to a washer that won't spin — here's what our technicians handle across {{ biz.areas }}.</p>
+  </div>
+</section>
+
+<section class="svc-detail">
+  <div class="wrap">
+    {% for s in services %}
+    <article class="svc-row" id="{{ s.slug }}">
+      <div class="svc-row-ic">{{ icon(s.icon) }}</div>
+      <div class="svc-row-body">
+        <h2>{{ s.title }}</h2>
+        <p class="svc-row-short">{{ s.short }}</p>
+        <ul class="svc-points">
+          {% for p in s.points %}<li>{{ check() }} {{ p }}</li>{% endfor %}
+        </ul>
+        <div class="svc-row-foot">
+          <span class="price-pill">From {{ s.price_from }}</span>
+          <a href="{{ url_for('contact') }}" class="btn btn-gold btn-sm">Book this repair</a>
+        </div>
+      </div>
+    </article>
+    {% endfor %}
+  </div>
+</section>
+
+<section class="cta">
+  <div class="wrap cta-inner">
+    <div>
+      <h2>Not sure what's wrong?</h2>
+      <p>Describe the problem and we'll diagnose it for you.</p>
+    </div>
+    <div class="hero-actions">
+      <a href="https://wa.me/{{ biz.phone_raw }}" class="btn btn-light" target="_blank" rel="noopener">WhatsApp us</a>
+      <a href="{{ url_for('contact') }}" class="btn btn-gold">Get a quote</a>
+    </div>
+  </div>
+</section>
+{% endblock %}

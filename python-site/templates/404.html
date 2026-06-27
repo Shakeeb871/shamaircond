@@ -1,0 +1,15 @@
+{% extends "base.html" %}
+{% block title %}Page not found | {{ biz.name }}{% endblock %}
+{% block content %}
+<section class="page-hero">
+  <div class="wrap" style="text-align:center">
+    <span class="ph-eyebrow">Error 404</span>
+    <h1>This page took a day off</h1>
+    <p>The page you're looking for doesn't exist. Let's get you back on track.</p>
+    <div class="hero-actions" style="justify-content:center;margin-top:24px">
+      <a href="{{ url_for('home') }}" class="btn btn-gold">Back to home</a>
+      <a href="{{ url_for('contact') }}" class="btn btn-light">Contact us</a>
+    </div>
+  </div>
+</section>
+{% endblock %}

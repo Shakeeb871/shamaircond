@@ -1,0 +1,117 @@
+{% extends "base.html" %}
+{% from "_icons.html" import icon, check %}
+{% block title %}{{ biz.name }} | Appliance Repair in {{ biz.areas.split(',')[0] }}{% endblock %}
+
+{% block content %}
+<section class="hero">
+  <div class="wrap hero-inner">
+    <div class="hero-left">
+      <span class="badge"><span class="dot"></span>Available Now · Fast Response</span>
+      <h1>Home appliance repair, <span class="hl">done right</span> the first time.</h1>
+      <p class="lead">{{ biz.tagline }}. Fridges, washing machines, air-conditioners, ovens and more — repaired across {{ biz.areas }} with clear, upfront pricing.</p>
+      <div class="hero-actions">
+        <a href="tel:+{{ biz.phone_raw }}" class="btn btn-gold">Call {{ biz.phone_display }}</a>
+        <a href="https://wa.me/{{ biz.phone_raw }}" class="btn btn-wa" target="_blank" rel="noopener">Chat on WhatsApp</a>
+      </div>
+      <ul class="hero-trust">
+        <li>{{ check() }} Same-day slots</li>
+        <li>{{ check() }} All major brands</li>
+        <li>{{ check() }} Workmanship warranty</li>
+      </ul>
+    </div>
+    <div class="hero-card">
+      <h3>Book a repair</h3>
+      <p class="muted">Tell us the appliance & area, we'll confirm fast.</p>
+      <form action="{{ url_for('contact') }}" method="get">
+        <a href="{{ url_for('contact') }}" class="btn btn-gold btn-block">Get a free quote</a>
+      </form>
+      <div class="card-list">
+        {% for s in services[:4] %}
+        <div class="card-list-item"><span class="cli-ic">{{ icon(s.icon) }}</span>{{ s.title }}<span class="cli-from">from {{ s.price_from }}</span></div>
+        {% endfor %}
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="features">
+  <div class="wrap">
+    <div class="sec-head">
+      <span class="eyebrow">Why homeowners pick us</span>
+      <h2>Repairs made simple, fast and worry-free</h2>
+    </div>
+    <div class="feature-grid">
+      {% for w in why_us %}
+      <div class="feature">
+        <span class="f-num">0{{ loop.index }}</span>
+        <h4>{{ w.title }}</h4>
+        <p>{{ w.text }}</p>
+      </div>
+      {% endfor %}
+    </div>
+  </div>
+</section>
+
+<section class="services-sec alt">
+  <div class="wrap">
+    <div class="sec-head">
+      <span class="eyebrow">What we fix</span>
+      <h2>Our repair services</h2>
+      <p>Skilled technicians for every major home appliance.</p>
+    </div>
+    <div class="svc-grid">
+      {% for s in services %}
+      <a class="svc-card" href="{{ url_for('services') }}#{{ s.slug }}">
+        <span class="svc-ic">{{ icon(s.icon) }}</span>
+        <h4>{{ s.title }}</h4>
+        <p>{{ s.short }}</p>
+        <span class="svc-from">From {{ s.price_from }} →</span>
+      </a>
+      {% endfor %}
+    </div>
+  </div>
+</section>
+
+<section class="testi">
+  <div class="wrap">
+    <div class="sec-head">
+      <span class="eyebrow">Happy customers</span>
+      <h2>What people say</h2>
+    </div>
+    <div class="testi-grid">
+      {% for t in testimonials %}
+      <figure class="testi-card">
+        <div class="stars">★★★★★</div>
+        <blockquote>“{{ t.text }}”</blockquote>
+        <figcaption>{{ t.name }} <span>· {{ t.area }}</span></figcaption>
+      </figure>
+      {% endfor %}
+    </div>
+  </div>
+</section>
+
+<section class="faq-sec alt">
+  <div class="wrap narrow">
+    <div class="sec-head">
+      <span class="eyebrow">Good to know</span>
+      <h2>Frequently asked questions</h2>
+    </div>
+    {% for q, a in faqs %}
+    <details class="faq-item"><summary>{{ q }}</summary><div class="faq-a"><p>{{ a }}</p></div></details>
+    {% endfor %}
+  </div>
+</section>
+
+<section class="cta">
+  <div class="wrap cta-inner">
+    <div>
+      <h2>Appliance giving you trouble?</h2>
+      <p>Get a fast, honest quote today — no call-out surprises.</p>
+    </div>
+    <div class="hero-actions">
+      <a href="tel:+{{ biz.phone_raw }}" class="btn btn-light">Call {{ biz.phone_display }}</a>
+      <a href="{{ url_for('contact') }}" class="btn btn-gold">Send a request</a>
+    </div>
+  </div>
+</section>
+{% endblock %}

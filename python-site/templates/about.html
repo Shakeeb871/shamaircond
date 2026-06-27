@@ -1,0 +1,58 @@
+{% extends "base.html" %}
+{% block title %}About Us | {{ biz.name }}{% endblock %}
+
+{% block content %}
+<section class="page-hero">
+  <div class="wrap">
+    <nav class="breadcrumb"><a href="{{ url_for('home') }}">Home</a> <span>/</span> <b>About</b></nav>
+    <span class="ph-eyebrow">About us</span>
+    <h1>Your trusted appliance repair team</h1>
+    <p>Local technicians keeping homes across {{ biz.areas }} running smoothly.</p>
+  </div>
+</section>
+
+<section class="about-sec">
+  <div class="wrap narrow">
+    <p class="lede">At <strong>{{ biz.name }}</strong>, we believe a broken appliance shouldn't break your day. We're a team of experienced, friendly technicians who repair fridges, washing machines, air-conditioners, ovens, water heaters and more — quickly, cleanly and at a fair price.</p>
+    <p>Every job starts with a clear diagnosis and an upfront quote, so you always know what you're paying before we begin. We carry common spare parts on the van, which means many repairs are completed in a single visit. And because we stand behind our work, every repair is backed by a workmanship guarantee.</p>
+
+    <div class="stats">
+      <div class="stat"><b>10+</b><span>Years experience</span></div>
+      <div class="stat"><b>5,000+</b><span>Repairs completed</span></div>
+      <div class="stat"><b>4.9★</b><span>Average rating</span></div>
+      <div class="stat"><b>Same-day</b><span>Response slots</span></div>
+    </div>
+  </div>
+</section>
+
+<section class="features alt">
+  <div class="wrap">
+    <div class="sec-head">
+      <span class="eyebrow">Our promise</span>
+      <h2>What you can count on</h2>
+    </div>
+    <div class="feature-grid">
+      {% for w in why_us %}
+      <div class="feature">
+        <span class="f-num">0{{ loop.index }}</span>
+        <h4>{{ w.title }}</h4>
+        <p>{{ w.text }}</p>
+      </div>
+      {% endfor %}
+    </div>
+  </div>
+</section>
+
+<section class="cta">
+  <div class="wrap cta-inner">
+    <div>
+      <h2>Ready when you are</h2>
+      <p>Book a technician in minutes.</p>
+    </div>
+    <div class="hero-actions">
+      <a href="tel:+{{ biz.phone_raw }}" class="btn btn-light">Call {{ biz.phone_display }}</a>
+      <a href="{{ url_for('contact') }}" class="btn btn-gold">Send a request</a>
+    </div>
+  </div>
+</section>
+{% endblock %}

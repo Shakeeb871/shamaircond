@@ -9,7 +9,7 @@ $faqschema=<<<'HTML'
 HTML;
 include __DIR__.'/../inc/header.php';
 ?>
-<section class="page-hero" style="background-image:linear-gradient(180deg,rgba(10,28,58,.58) 0%,rgba(10,28,58,.8) 100%),url('https://aircondprofessionals.com/wp-content/uploads/2023/04/Untitled-design-2023-04-14T025951.407.png')">
+<section class="page-hero" style="background-image:linear-gradient(180deg,rgba(10,28,58,.58) 0%,rgba(10,28,58,.8) 100%),url('/assets/img/aircond-service-hero.jpg')">
   <div class="wrap">
     <nav class="breadcrumb"><a href="/">Home</a> <span>/</span> <a href="/services/">Services</a> <span>/</span> <b>Aircond Service</b></nav>
     <h1>Certified Aircond Service Specialist</h1>

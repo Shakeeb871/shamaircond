@@ -179,7 +179,7 @@ if not DEBUG:
 #   Change BRAND_NAME (and friends) here or via environment variables.
 #   These flow into every page's titles, footer, and SEO structured data.
 # --------------------------------------------------------------------------- #
-BRAND_NAME = os.getenv("BRAND_NAME", "Renova Stem Cell")
+BRAND_NAME = os.getenv("BRAND_NAME", "Brockwell Healthcare")
 BRAND_TAGLINE = os.getenv(
     "BRAND_TAGLINE", "Advanced Regenerative & Stem Cell Therapies"
 )

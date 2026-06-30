@@ -1,0 +1,14 @@
+# Python virtual environment & build artifacts (do not commit)
+.venv/
+venv/
+env/
+__pycache__/
+*.py[cod]
+
+# Local env / secrets
+.env
+
+# Django build artifacts
+stemcell-site/staticfiles/
+stemcell-site/db.sqlite3
+stemcell-site/media/

@@ -724,3 +724,20 @@ form.cform{border-top:5px solid var(--gold);box-shadow:0 26px 55px -24px rgba(18
 .page-hero-light .hr-text{font-family:var(--display);font-size:14.5px;color:var(--navy-ink);font-weight:600}
 .page-hero-light .hr-text strong{font-weight:800;color:var(--navy-ink)}
 @media(max-width:768px){.page-hero-light{min-height:auto;padding-top:140px;padding-bottom:54px}}
+
+/* ===== Service hero: right-side stat counters + CTA ===== */
+.page-hero-light .hero-lite-grid{display:grid;grid-template-columns:1.1fr .9fr;gap:52px;align-items:center;width:100%}
+.hero-stats{background:#fff;border:1px solid var(--line-soft);border-radius:18px;padding:28px;box-shadow:0 34px 70px -34px rgba(18,58,122,.45)}
+.hs-head{font-family:var(--display);font-weight:700;font-size:15px;color:var(--navy-ink);text-transform:uppercase;letter-spacing:.06em;text-align:center;margin-bottom:20px}
+.hs-grid{display:grid;grid-template-columns:1fr 1fr;gap:16px}
+.hs-item{text-align:center;padding:20px 12px;background:var(--soft);border:1px solid var(--line-soft);border-radius:13px}
+.hs-num{display:block;font-family:var(--display);font-weight:800;font-size:clamp(28px,3.4vw,36px);color:var(--navy);line-height:1}
+.hs-num .suf{color:var(--gold)}
+.hs-label{display:block;font-size:12px;color:var(--muted);margin-top:9px;font-weight:600;text-transform:uppercase;letter-spacing:.04em}
+.hs-cta{width:100%;justify-content:center;margin-top:20px;font-size:14.5px;padding:14px 20px}
+.hs-note{text-align:center;font-size:12.5px;color:var(--muted);margin-top:11px}
+@media(max-width:900px){
+  .page-hero-light .hero-lite-grid{grid-template-columns:1fr;gap:32px}
+  .hero-stats{max-width:520px}
+}
+@media(max-width:400px){.hs-grid{grid-template-columns:1fr}}

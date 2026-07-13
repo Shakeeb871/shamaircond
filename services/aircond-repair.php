@@ -9,39 +9,80 @@ $faqschema=<<<'HTML'
 HTML;
 include __DIR__.'/../inc/header.php';
 ?>
-<section class="page-hero" style="background-image:linear-gradient(180deg,rgba(10,28,58,.58) 0%,rgba(10,28,58,.8) 100%),url('https://aircondprofessionals.com/wp-content/uploads/2023/04/Untitled-design-2023-04-14T025951.407.png')">
+<section class="page-hero page-hero-light" style="background-image:linear-gradient(180deg,rgba(255,255,255,.9) 0%,rgba(255,255,255,.8) 100%),url('https://aircondprofessionals.com/wp-content/uploads/2023/04/Untitled-design-2023-04-14T025951.407.png')">
   <div class="wrap">
-    <nav class="breadcrumb"><a href="/">Home</a> <span>/</span> <a href="/services/">Services</a> <span>/</span> <b>Aircond Repair</b></nav>
-    <h1>Certified Aircond Repair Specialist</h1>
-    <p>Sham Aircond is a trusted name for aircond repair across Kuala Lumpur, serving homes, offices and shops with skilled technicians and genuine parts. We turn up on time, quote you upfront, and back every repair with a service guarantee. Thousands of KL customers rely on us to keep their air conditioners running through the hottest months.</p>
+    <div class="hero-lite-grid">
+      <div class="hero-copy">
+    <div class="hero-rating">
+      <span class="hr-stars"><svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg><svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg><svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg><svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg><svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg></span>
+      <span class="hr-text"><strong>5.0</strong> &middot; Trusted by hundreds of happy customers</span>
+    </div>
+    <h1>Trusted Aircond Repair Specialist in Kuala Lumpur</h1>
+    <p>Fast-response aircond repair for homes, offices and retail spaces across Kuala Lumpur and the Klang Valley. Not cooling, leaking water, noisy or tripping the breaker? Our technicians find the real fault and fix it right &mdash; with upfront pricing and a service guarantee.</p>
     <div class="hero-actions">
       <a href="tel:+601111642927" class="btn btn-gold"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.8 19.8 0 01-8.63-3.07 19.5 19.5 0 01-6-6 19.8 19.8 0 01-3.07-8.67A2 2 0 014.11 2h3a2 2 0 012 1.72c.13.96.36 1.9.7 2.81a2 2 0 01-.45 2.11L8.09 9.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45c.9.34 1.85.57 2.81.7A2 2 0 0122 16.92z"/></svg> Call Now</a>
       <a href="https://wa.me/601111642927" class="btn btn-wa"><svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2a10 10 0 00-8.6 15l-1.3 4.7 4.8-1.3A10 10 0 1012 2zm5.3 14.1c-.2.6-1.3 1.2-1.8 1.2-.5.1-1 .1-1.7-.1-.4-.1-.9-.3-1.5-.6a8 8 0 01-3.7-3.3c-.3-.4-.7-1.1-.7-2 0-1 .5-1.4.7-1.6.2-.2.4-.2.6-.2h.4c.1 0 .3 0 .5.4l.6 1.5c0 .2 0 .3-.1.4l-.3.4c-.1.1-.3.3-.1.5.1.3.6 1 1.3 1.6.9.8 1.6 1 1.9 1.1.2.1.4.1.5-.1l.5-.6c.2-.2.3-.2.5-.1l1.5.7c.2.1.4.2.4.3.1.1.1.4 0 .6z"/></svg> WhatsApp</a>
+        </div>
+      </div>
+      <aside class="hero-stats">
+        <div class="hs-head">Why customers choose us</div>
+        <div class="hs-grid">
+          <div class="hs-item"><span class="hs-num">10<span class="suf">+</span></span><span class="hs-label">Years Experience</span></div>
+          <div class="hs-item"><span class="hs-num">5,000<span class="suf">+</span></span><span class="hs-label">Jobs Completed</span></div>
+          <div class="hs-item"><span class="hs-num">4,500<span class="suf">+</span></span><span class="hs-label">Happy Customers</span></div>
+          <div class="hs-item"><span class="hs-num">5.0<span class="suf">&#9733;</span></span><span class="hs-label">Average Rating</span></div>
+        </div>
+      </aside>
     </div>
-    <div class="hero-areas">
-      <span class="ha-label">Areas we cover</span>
-      <div class="ha-list">
-        <span class="ha"><svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg> Cheras</span>
-        <span class="ha"><svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg> Wangsa Maju</span>
-        <span class="ha"><svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg> Setapak</span>
-        <span class="ha"><svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg> Kepong</span>
-        <span class="ha"><svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg> Bangsar</span>
-        <span class="ha"><svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg> Mont Kiara</span>
-        <span class="ha"><svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg> Bukit Bintang</span>
-        <span class="ha"><svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg> Sentul</span>
-        <span class="ha"><svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg> KL City Centre</span>
-        <span class="ha"><svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg> Petaling Jaya</span>
-        <span class="ha"><svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg> Subang Jaya</span>
-        <span class="ha"><svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg> Shah Alam</span>
-        <span class="ha"><svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg> Puchong</span>
-        <span class="ha"><svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg> Seri Kembangan</span>
-        <span class="ha"><svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg> Putrajaya</span>
+  </div>
+</section>
+
+<section class="trust-strip">
+  <div class="wrap">
+    <div class="ts-grid">
+      <div class="ts-item">
+        <span class="ts-ic"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg></span>
+        <div><span class="ts-t">Arrive Within 24 Hours</span><span class="ts-s">Fast same-day or next-day response</span></div>
+      </div>
+      <div class="ts-item">
+        <span class="ts-ic"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/><path d="M9 12l2 2 4-4"/></svg></span>
+        <div><span class="ts-t">30 Days Warranty</span><span class="ts-s">On our workmanship &amp; parts</span></div>
+      </div>
+      <div class="ts-item">
+        <span class="ts-ic"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M17 21v-2a4 4 0 00-4-4H5a4 4 0 00-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 00-3-3.87"/><path d="M16 3.13a4 4 0 010 7.75"/></svg></span>
+        <div><span class="ts-t">12,000+ Happy Clients</span><span class="ts-s">Residential &amp; commercial, served across Klang Valley, Putrajaya &amp; Cyberjaya</span></div>
       </div>
     </div>
   </div>
 </section>
 
-<section class="svc-layout-sec">
+<section class="feat3">
+  <div class="wrap">
+    <div class="sec-head" style="text-align:center">
+      <span class="eyebrow" style="justify-content:center">Why choose us</span>
+      <h2>Expert Aircond Repair Services You Can Trust</h2>
+    </div>
+    <div class="feat3-grid">
+      <div class="feat3-card">
+        <span class="f3-ic"><svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M13 2L3 14h7l-1 8 10-12h-7l1-8z"/></svg></span>
+        <h3>Express Service</h3>
+        <p>Fast, same-day aircond repair. Whether it&rsquo;s one unit at home or several across your office, we get your cooling back quickly.</p>
+      </div>
+      <div class="feat3-card">
+        <span class="f3-ic"><svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/><path d="M9 12l2 2 4-4"/></svg></span>
+        <h3>Experienced &amp; Reliable</h3>
+        <p>Skilled technicians who diagnose the real fault and repair it properly, following industry standards for safety and lasting performance.</p>
+      </div>
+      <div class="feat3-card">
+        <span class="f3-ic"><svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20.59 13.41l-7.17 7.17a2 2 0 01-2.83 0L2 12V2h10l8.59 8.59a2 2 0 010 2.82z"/><line x1="7" y1="7" x2="7.01" y2="7"/></svg></span>
+        <h3>Transparent Pricing</h3>
+        <p>Clear repair rates with no hidden fees. You&rsquo;ll always know the exact cost before we start any work.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="svc-layout-sec" id="booking">
   <div class="wrap">
     <div class="svc-layout">
       <aside class="book-side">
@@ -147,16 +188,7 @@ include __DIR__.'/../inc/header.php';
         <div class="in-sec">
           <h2>Brands our technicians repair</h2>
           <p>We repair Daikin, Panasonic, York, Acson, Midea, Samsung, LG and most other brands sold across Malaysia. Both single-split and multi-split systems are covered, so your setup is in safe hands.</p>
-          <div class="tag-chips">
-            <span class="chip"><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6L9 17l-5-5"/></svg> Daikin</span>
-            <span class="chip"><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6L9 17l-5-5"/></svg> Panasonic</span>
-            <span class="chip"><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6L9 17l-5-5"/></svg> York</span>
-            <span class="chip"><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6L9 17l-5-5"/></svg> Acson</span>
-            <span class="chip"><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6L9 17l-5-5"/></svg> Midea</span>
-            <span class="chip"><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6L9 17l-5-5"/></svg> Samsung</span>
-            <span class="chip"><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6L9 17l-5-5"/></svg> LG</span>
-            <span class="chip"><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6L9 17l-5-5"/></svg> &amp; most other brands</span>
-          </div>
+          <div class="brands-logos"><img src="https://shamaircond.com/assets/img/brand.png" width="695" height="146" alt="Aircond brands we repair: Daikin, LG, Mitsubishi, Samsung, Acson, Panasonic, Sharp" loading="lazy" onerror="this.remove()"></div>
           <p class="areas-note">Our team also services commercial units in restaurants, salons, clinics and offices. When several units need attention, we schedule them together so your business loses less time.</p>
         </div>
 

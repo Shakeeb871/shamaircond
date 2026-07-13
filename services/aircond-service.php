@@ -60,7 +60,7 @@ include __DIR__.'/../inc/header.php';
   <div class="wrap">
     <div class="sec-head" style="text-align:center">
       <span class="eyebrow" style="justify-content:center">Why choose us</span>
-      <h2>Cooling you can count on</h2>
+      <h2>Expert Aircond Service, Repair &amp; Installation You Can Trust</h2>
     </div>
     <div class="feat3-grid">
       <div class="feat3-card">

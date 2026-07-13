@@ -6,7 +6,7 @@
 :root{
   --navy:#1A4C9C;--navy-deep:#123A7A;--navy-ink:#0E2A57;
   --gold:#F6A700;--gold-deep:#DB9100;
-  --ink:#15233D;--muted:#5A6B86;--bg:#FFFFFF;--soft:#F1F5FB;--soft-2:#E5EEF8;
+  --ink:#111111;--muted:#111111;--bg:#FFFFFF;--soft:#F1F5FB;--soft-2:#E5EEF8;
   --line:rgba(26,76,156,.16);--line-soft:rgba(26,76,156,.09);
   --radius:8px;--radius-lg:12px;
   --display:'Poppins',sans-serif;--body:'Poppins',sans-serif;--maxw:1200px;
@@ -741,3 +741,6 @@ form.cform{border-top:5px solid var(--gold);box-shadow:0 26px 55px -24px rgba(18
   .hero-stats{max-width:520px}
 }
 @media(max-width:400px){.hs-grid{grid-template-columns:1fr}}
+
+/* Keep slider counter legible over the hero image (muted is now black) */
+.slider-count{color:rgba(255,255,255,.9)}

@@ -29,7 +29,7 @@ include __DIR__.'/../inc/header.php';
         <div class="hs-grid">
           <div class="hs-item"><span class="hs-num">10<span class="suf">+</span></span><span class="hs-label">Years Experience</span></div>
           <div class="hs-item"><span class="hs-num">5,000<span class="suf">+</span></span><span class="hs-label">Jobs Completed</span></div>
-          <div class="hs-item"><span class="hs-num">4,500<span class="suf">+</span></span><span class="hs-label">Happy Customers</span></div>
+          <div class="hs-item"><span class="hs-num">15<span class="suf">+</span></span><span class="hs-label">Certified Experts</span></div>
           <div class="hs-item"><span class="hs-num">5.0<span class="suf">&#9733;</span></span><span class="hs-label">Average Rating</span></div>
         </div>
       </aside>

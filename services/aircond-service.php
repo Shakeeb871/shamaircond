@@ -32,8 +32,6 @@ include __DIR__.'/../inc/header.php';
           <div class="hs-item"><span class="hs-num">4,500<span class="suf">+</span></span><span class="hs-label">Happy Customers</span></div>
           <div class="hs-item"><span class="hs-num">5.0<span class="suf">&#9733;</span></span><span class="hs-label">Average Rating</span></div>
         </div>
-        <a href="#booking" class="btn btn-gold hs-cta">Get a Free Quote</a>
-        <p class="hs-note">No obligation &middot; We reply within the hour</p>
       </aside>
     </div>
   </div>

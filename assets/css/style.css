@@ -703,7 +703,7 @@ form.cform{border-top:5px solid var(--gold);box-shadow:0 26px 55px -24px rgba(18
 .btn-ghost:hover{background:rgba(255,255,255,.12);border-color:#fff}
 
 /* ===== Light hero variant (e.g. service page) — dark text on light overlay ===== */
-.page-hero-light h1{color:var(--navy-ink)}
+.page-hero-light h1{color:var(--navy-ink);font-size:clamp(26px,3.1vw,40px)}
 .page-hero-light p{color:var(--ink)}
 
 /* ===== Service (light) hero: left-aligned, vertically centered, header spacing, rating ===== */

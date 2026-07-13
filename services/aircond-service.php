@@ -56,6 +56,32 @@ include __DIR__.'/../inc/header.php';
   </div>
 </section>
 
+<section class="feat3">
+  <div class="wrap">
+    <div class="sec-head" style="text-align:center">
+      <span class="eyebrow" style="justify-content:center">Why choose us</span>
+      <h2>Cooling you can count on</h2>
+    </div>
+    <div class="feat3-grid">
+      <div class="feat3-card">
+        <span class="f3-ic"><svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M13 2L3 14h7l-1 8 10-12h-7l1-8z"/></svg></span>
+        <h3>Express Service</h3>
+        <p>Fast, on-time aircond service and installation. Whether it&rsquo;s a single unit at home or multiple units for your office, we make sure your cooling is never delayed.</p>
+      </div>
+      <div class="feat3-card">
+        <span class="f3-ic"><svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/><path d="M9 12l2 2 4-4"/></svg></span>
+        <h3>Experienced &amp; Reliable</h3>
+        <p>Skilled technicians who service and install every unit properly, following industry standards for safety and lasting performance.</p>
+      </div>
+      <div class="feat3-card">
+        <span class="f3-ic"><svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20.59 13.41l-7.17 7.17a2 2 0 01-2.83 0L2 12V2h10l8.59 8.59a2 2 0 010 2.82z"/><line x1="7" y1="7" x2="7.01" y2="7"/></svg></span>
+        <h3>Transparent Pricing</h3>
+        <p>Clear service rates with no hidden fees. You&rsquo;ll always know the exact cost before we start any work.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
 <section class="svc-layout-sec" id="booking">
   <div class="wrap">
     <div class="svc-layout">
@@ -175,16 +201,7 @@ include __DIR__.'/../inc/header.php';
         <div class="in-sec">
           <h2>Brands our technicians service</h2>
           <p>We service Daikin, Panasonic, York, Acson, Midea, Samsung, LG and most other brands sold across Malaysia. Both single-split and multi-split systems are covered, so your setup is in safe hands.</p>
-          <div class="tag-chips">
-            <span class="chip"><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6L9 17l-5-5"/></svg> Daikin</span>
-            <span class="chip"><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6L9 17l-5-5"/></svg> Panasonic</span>
-            <span class="chip"><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6L9 17l-5-5"/></svg> York</span>
-            <span class="chip"><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6L9 17l-5-5"/></svg> Acson</span>
-            <span class="chip"><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6L9 17l-5-5"/></svg> Midea</span>
-            <span class="chip"><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6L9 17l-5-5"/></svg> Samsung</span>
-            <span class="chip"><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6L9 17l-5-5"/></svg> LG</span>
-            <span class="chip"><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6L9 17l-5-5"/></svg> &amp; most other brands</span>
-          </div>
+          <div class="brands-logos"><img src="https://shamaircond.com/assets/img/brand.png" width="695" height="146" alt="Aircond brands we service: Daikin, LG, Mitsubishi, Samsung, Acson, Panasonic, Sharp" loading="lazy" onerror="this.remove()"></div>
           <p class="areas-note">Our team also maintains commercial units in restaurants, salons, clinics and offices. When several units need attention, we schedule them together so your business loses less time.</p>
         </div>
 

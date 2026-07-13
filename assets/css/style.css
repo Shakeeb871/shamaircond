@@ -758,3 +758,18 @@ form.cform{border-top:5px solid var(--gold);box-shadow:0 26px 55px -24px rgba(18
   .ts-grid{grid-template-columns:1fr;gap:16px}
   .ts-item + .ts-item{border-left:none;padding-left:0;border-top:1px solid rgba(255,255,255,.13);padding-top:16px}
 }
+
+/* ===== Brands logo image (service page) ===== */
+.brands-logos{margin-top:22px}
+.brands-logos img{width:100%;max-width:620px;height:auto;display:block}
+
+/* ===== 3-feature "Why choose us" section ===== */
+.feat3{padding:78px 0}
+.feat3 .sec-head{margin-bottom:44px}
+.feat3-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:26px}
+.feat3-card{background:#fff;border:1px solid var(--line-soft);border-radius:16px;padding:36px 28px;text-align:center;box-shadow:0 20px 46px -30px rgba(18,58,122,.35);transition:transform .2s ease,box-shadow .25s ease !important}
+.feat3-card:hover{transform:translateY(-5px);box-shadow:0 30px 60px -28px rgba(18,58,122,.45)}
+.f3-ic{width:66px;height:66px;border-radius:17px;background:linear-gradient(180deg,#FFBD2E,var(--gold-deep));color:var(--navy-ink);display:grid;place-items:center;margin:0 auto 20px;box-shadow:0 10px 22px -8px rgba(246,167,0,.5)}
+.feat3-card h3{font-size:20px;color:var(--navy-ink);margin-bottom:11px;text-transform:capitalize}
+.feat3-card p{font-size:14.5px;color:var(--muted);line-height:1.75;margin:0}
+@media(max-width:860px){.feat3-grid{grid-template-columns:1fr;gap:20px}.feat3{padding:56px 0}}

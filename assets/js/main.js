@@ -143,6 +143,39 @@
     }
   } catch (e) {}
 
+  /* ---- REVIEW CAROUSEL (3-up, step by 1, infinite loop) ---- */
+  try {
+    document.querySelectorAll('.rc-carousel').forEach(function (car) {
+      var track = car.querySelector('.rc-track');
+      if (!track) return;
+      var cards = [].slice.call(track.children);
+      if (cards.length < 2) return;
+      var orig = cards.length;
+      cards.forEach(function (c) { var cl = c.cloneNode(true); cl.setAttribute('aria-hidden', 'true'); track.appendChild(cl); });
+      var i = 0, timer, delay = 2800;
+      var gap = function () { var g = parseFloat(getComputedStyle(track).columnGap); return isNaN(g) ? 22 : g; };
+      var cardW = function () { return track.children[0].getBoundingClientRect().width + gap(); };
+      var go = function () {
+        i++;
+        track.classList.remove('rc-noanim');
+        track.style.transform = 'translateX(' + (-i * cardW()) + 'px)';
+      };
+      track.addEventListener('transitionend', function () {
+        if (i >= orig) {
+          track.classList.add('rc-noanim');
+          i = 0;
+          track.style.transform = 'translateX(0px)';
+          void track.offsetWidth;
+        }
+      });
+      var start = function () { clearInterval(timer); timer = setInterval(go, delay); };
+      car.addEventListener('mouseenter', function () { clearInterval(timer); });
+      car.addEventListener('mouseleave', start);
+      window.addEventListener('resize', function () { track.classList.add('rc-noanim'); track.style.transform = 'translateX(' + (-i * cardW()) + 'px)'; });
+      start();
+    });
+  } catch (e) {}
+
   /* ---- contact / booking forms (supports multiple forms per page) ---- */
   try {
     var bookingForms = document.querySelectorAll('form.cform');

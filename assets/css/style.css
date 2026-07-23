@@ -817,3 +817,15 @@ form.cform{border-top:5px solid var(--gold);box-shadow:0 26px 55px -24px rgba(18
 .reviews-sec .rev-name{font-size:15px}
 .reviews-sec .rev-loc{font-size:12.5px}
 @media(max-width:560px){.reviews-sec .review-card{padding:26px 20px}.reviews-slider .rev-viewport{min-height:250px}}
+
+/* ===== Reviews carousel: 3-up, step-by-1, infinite ===== */
+.rc-carousel{overflow:hidden}
+.rc-track{display:flex;gap:22px;transition:transform .6s cubic-bezier(.4,0,.2,1) !important;will-change:transform}
+.rc-track.rc-noanim{transition:none !important}
+.rc-card{flex:0 0 calc((100% - 44px)/3);box-sizing:border-box}
+.rc-card .review-card{height:100%;text-align:left}
+.rc-card .rev-stars{justify-content:flex-start;margin-bottom:12px}
+.rc-card .rev-text{font-size:14.5px}
+.rc-card .rev-author{justify-content:flex-start}
+@media(max-width:860px){.rc-card{flex-basis:calc((100% - 22px)/2)}}
+@media(max-width:560px){.rc-card{flex-basis:100%}}

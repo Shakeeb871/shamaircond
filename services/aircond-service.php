@@ -116,6 +116,10 @@ include __DIR__.'/../inc/header.php';
         </div></div>
       </div>
     </div>
+    <div class="rc-nav">
+      <button class="rc-btn rc-prev" type="button" aria-label="Previous reviews"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M15 18l-6-6 6-6"/></svg></button>
+      <button class="rc-btn rc-next" type="button" aria-label="Next reviews"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M9 18l6-6-6-6"/></svg></button>
+    </div>
   </div>
 </section>
 

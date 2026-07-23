@@ -130,7 +130,7 @@ a{color:inherit;text-decoration:none}
 .trust-card p{font-size:13.5px;color:var(--muted);line-height:1.6;margin:0}
 
 /* sections */
-section{padding:94px 0}
+section{padding:54px 0}
 .sec-head{max-width:640px;margin:0 auto 54px;text-align:center}
 .sec-head h2{font-size:clamp(30px,3.8vw,44px);margin:14px 0;text-transform:capitalize;letter-spacing:-.01em}
 .sec-head p{color:var(--muted);font-size:17px}
@@ -293,10 +293,10 @@ footer{background:#0B1F40;color:#9fb2d4;padding:66px 0 26px}
   .hero-slider{--head:86px;height:auto;min-height:0;max-height:none}
   .slide{padding:calc(var(--head) + 26px) 24px 60px}
   .about-media{max-width:440px;margin:0 auto}
-  section{padding:78px 0}
+  section{padding:44px 0}
 }
 @media(max-width:560px){
-  section{padding:64px 0}
+  section{padding:38px 0}
   .site-header .topbar{display:none}
   .hero-slider{--head:80px;height:auto;min-height:0;max-height:none}
   .slide{padding:calc(var(--head) + 20px) 20px 44px}
@@ -453,7 +453,7 @@ footer{background:#0B1F40;color:#9fb2d4;padding:66px 0 26px}
 }
 
 /* ===== Service page: left booking sidebar + right content ===== */
-.svc-layout-sec{padding-top:64px}
+.svc-layout-sec{padding-top:44px}
 .svc-layout{display:grid;grid-template-columns:392px 1fr;gap:48px;align-items:start}
 .book-side{position:sticky;top:104px;display:flex;flex-direction:column;gap:16px}
 .book-img{border-radius:16px;overflow:hidden;aspect-ratio:16/10;background:var(--soft)}
@@ -764,7 +764,7 @@ form.cform{border-top:5px solid var(--gold);box-shadow:0 26px 55px -24px rgba(18
 .brands-logos img{width:100%;max-width:620px;height:auto;display:block}
 
 /* ===== 3-feature "Why choose us" section ===== */
-.feat3{padding:78px 0}
+.feat3{padding:50px 0}
 .feat3 .sec-head{margin-bottom:44px}
 .feat3-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:26px}
 .feat3-card{background:#fff;border:1px solid var(--line-soft);border-radius:16px;padding:36px 28px;text-align:center;box-shadow:0 20px 46px -30px rgba(18,58,122,.35);transition:transform .2s ease,box-shadow .25s ease !important}
@@ -772,7 +772,7 @@ form.cform{border-top:5px solid var(--gold);box-shadow:0 26px 55px -24px rgba(18
 .f3-ic{width:66px;height:66px;border-radius:17px;background:linear-gradient(180deg,#FFBD2E,var(--gold-deep));color:var(--navy-ink);display:grid;place-items:center;margin:0 auto 20px;box-shadow:0 10px 22px -8px rgba(246,167,0,.5)}
 .feat3-card h3{font-size:20px;color:var(--navy-ink);margin-bottom:11px;text-transform:capitalize}
 .feat3-card p{font-size:14.5px;color:var(--muted);line-height:1.75;margin:0}
-@media(max-width:860px){.feat3-grid{grid-template-columns:1fr;gap:20px}.feat3{padding:56px 0}}
+@media(max-width:860px){.feat3-grid{grid-template-columns:1fr;gap:20px}.feat3{padding:38px 0}}
 
 /* ===== Hero CRO elements (offer badge, click-to-call, trust line) ===== */
 .hero-offer{display:inline-flex;align-items:center;gap:8px;background:rgba(37,211,102,.13);border:1px solid rgba(37,211,102,.4);color:#0b7a3b;font-family:var(--display);font-weight:700;font-size:12.5px;letter-spacing:.02em;padding:8px 15px;border-radius:999px;margin-bottom:18px}
@@ -797,7 +797,7 @@ form.cform{border-top:5px solid var(--gold);box-shadow:0 26px 55px -24px rgba(18
 @media(max-width:600px){.page-hero.hero-centered{min-height:auto;padding:128px 0 62px}.page-hero.hero-centered h1 br{display:none}}
 
 /* ===== Reviews section (Google badge + 8-review slider) ===== */
-.reviews-sec{padding:76px 0;background:var(--soft)}
+.reviews-sec{padding:50px 0;background:var(--soft)}
 .reviews-sec .sec-head{margin-bottom:22px}
 .gb-wrap{text-align:center;margin-bottom:34px}
 .google-badge{display:inline-flex;align-items:center;gap:12px;background:#fff;border:1px solid var(--line-soft);border-radius:14px;padding:12px 20px;box-shadow:0 14px 34px -24px rgba(18,58,122,.4)}
@@ -829,3 +829,8 @@ form.cform{border-top:5px solid var(--gold);box-shadow:0 26px 55px -24px rgba(18
 .rc-card .rev-author{justify-content:flex-start}
 @media(max-width:860px){.rc-card{flex-basis:calc((100% - 22px)/2)}}
 @media(max-width:560px){.rc-card{flex-basis:100%}}
+
+/* ===== Reviews carousel navigation ===== */
+.rc-nav{display:flex;justify-content:center;gap:12px;margin-top:26px}
+.rc-btn{width:46px;height:46px;border-radius:50%;border:1px solid var(--line);background:#fff;color:var(--navy-ink);display:grid;place-items:center;cursor:pointer;box-shadow:0 8px 20px -10px rgba(18,58,122,.4);transition:background .2s ease,color .2s ease,transform .15s ease !important}
+.rc-btn:hover{background:var(--navy);color:#fff;border-color:var(--navy);transform:translateY(-2px)}

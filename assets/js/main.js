@@ -160,6 +160,17 @@
         track.classList.remove('rc-noanim');
         track.style.transform = 'translateX(' + (-i * cardW()) + 'px)';
       };
+      var goPrev = function () {
+        if (i <= 0) {
+          track.classList.add('rc-noanim');
+          i = orig;
+          track.style.transform = 'translateX(' + (-i * cardW()) + 'px)';
+          void track.offsetWidth;
+        }
+        track.classList.remove('rc-noanim');
+        i--;
+        track.style.transform = 'translateX(' + (-i * cardW()) + 'px)';
+      };
       track.addEventListener('transitionend', function () {
         if (i >= orig) {
           track.classList.add('rc-noanim');
@@ -171,6 +182,11 @@
       var start = function () { clearInterval(timer); timer = setInterval(go, delay); };
       car.addEventListener('mouseenter', function () { clearInterval(timer); });
       car.addEventListener('mouseleave', start);
+      var shell = car.parentNode;
+      var nextBtn = shell && shell.querySelector('.rc-next');
+      var prevBtn = shell && shell.querySelector('.rc-prev');
+      if (nextBtn) nextBtn.addEventListener('click', function () { go(); start(); });
+      if (prevBtn) prevBtn.addEventListener('click', function () { goPrev(); start(); });
       window.addEventListener('resize', function () { track.classList.add('rc-noanim'); track.style.transform = 'translateX(' + (-i * cardW()) + 'px)'; });
       start();
     });

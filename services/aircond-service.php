@@ -9,35 +9,14 @@ $faqschema=<<<'HTML'
 HTML;
 include __DIR__.'/../inc/header.php';
 ?>
-<section class="page-hero page-hero-light" style="background-image:linear-gradient(180deg,rgba(255,255,255,.9) 0%,rgba(255,255,255,.8) 100%),url('https://aircondprofessionals.com/wp-content/uploads/2023/04/Untitled-design-2023-04-14T025951.407.png')">
+<section class="page-hero hero-centered" style="background-image:linear-gradient(115deg,rgba(14,42,87,.93) 0%,rgba(18,58,122,.85) 55%,rgba(180,120,20,.6) 100%),url('https://aircondprofessionals.com/wp-content/uploads/2023/04/Untitled-design-2023-04-14T025951.407.png')">
   <div class="wrap">
-    <div class="hero-lite-grid">
-      <div class="hero-copy">
-    <div class="hero-offer"><span class="ho-dot"></span> Same-Day Service &middot; Free Quote &middot; No Call-Out Fee</div>
-    <div class="hero-rating">
-      <span class="hr-stars"><svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg><svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg><svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg><svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg><svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg></span>
-      <span class="hr-text"><strong>5.0</strong> &middot; Rated by 12,000+ happy customers</span>
-    </div>
-    <h1>Trusted Aircond Service, Repair &amp; Installation</h1>
+    <span class="hc-eyebrow">Sham Aircond Services</span>
+    <h1>Trusted Aircond Service,<br>Repair &amp; Installation</h1>
     <p>Fast-response aircond servicing for homes, offices and retail spaces across Kuala Lumpur and the Klang Valley. Same-day slots, upfront pricing and a 30-day workmanship warranty on every job.</p>
-    <div class="hero-actions">
-      <a href="tel:+601111642927" class="btn btn-gold"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.8 19.8 0 01-8.63-3.07 19.5 19.5 0 01-6-6 19.8 19.8 0 01-3.07-8.67A2 2 0 014.11 2h3a2 2 0 012 1.72c.13.96.36 1.9.7 2.81a2 2 0 01-.45 2.11L8.09 9.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45c.9.34 1.85.57 2.81.7A2 2 0 0122 16.92z"/></svg> Call Now &mdash; Free Quote</a>
-      <a href="https://wa.me/601111642927" class="btn btn-wa"><svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2a10 10 0 00-8.6 15l-1.3 4.7 4.8-1.3A10 10 0 1012 2zm5.3 14.1c-.2.6-1.3 1.2-1.8 1.2-.5.1-1 .1-1.7-.1-.4-.1-.9-.3-1.5-.6a8 8 0 01-3.7-3.3c-.3-.4-.7-1.1-.7-2 0-1 .5-1.4.7-1.6.2-.2.4-.2.6-.2h.4c.1 0 .3 0 .5.4l.6 1.5c0 .2 0 .3-.1.4l-.3.4c-.1.1-.3.3-.1.5.1.3.6 1 1.3 1.6.9.8 1.6 1 1.9 1.1.2.1.4.1.5-.1l.5-.6c.2-.2.3-.2.5-.1l1.5.7c.2.1.4.2.4.3.1.1.1.4 0 .6z"/></svg> WhatsApp Us</a>
-        </div>
-        <div class="hero-trustline">
-          <a href="tel:+601111642927" class="hero-phone"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.8 19.8 0 01-8.63-3.07 19.5 19.5 0 01-6-6 19.8 19.8 0 01-3.07-8.67A2 2 0 014.11 2h3a2 2 0 012 1.72c.13.96.36 1.9.7 2.81a2 2 0 01-.45 2.11L8.09 9.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45c.9.34 1.85.57 2.81.7A2 2 0 0122 16.92z"/></svg> +60 11-1164 2927</a>
-          <span class="hero-checks">30-Day Warranty &middot; All Brands &middot; Skilled Technicians</span>
-        </div>
-      </div>
-      <aside class="hero-stats">
-        <div class="hs-head">Why customers choose us</div>
-        <div class="hs-grid">
-          <div class="hs-item"><span class="hs-num">10<span class="suf">+</span></span><span class="hs-label">Years Experience</span></div>
-          <div class="hs-item"><span class="hs-num">5,000<span class="suf">+</span></span><span class="hs-label">Jobs Completed</span></div>
-          <div class="hs-item"><span class="hs-num">15<span class="suf">+</span></span><span class="hs-label">Certified Experts</span></div>
-          <div class="hs-item"><span class="hs-num">5.0<span class="suf">&#9733;</span></span><span class="hs-label">Average Rating</span></div>
-        </div>
-      </aside>
+    <div class="hc-actions">
+      <a href="https://wa.me/601111642927" class="btn hc-btn-light">WhatsApp Us</a>
+      <a href="tel:+601111642927" class="btn btn-gold">Call Now &mdash; Free Quote</a>
     </div>
   </div>
 </section>
